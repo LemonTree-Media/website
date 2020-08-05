@@ -28,6 +28,7 @@
 <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
 <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!-- Template Main CSS File -->
 <link href="../assets/css/style.css" rel="stylesheet">
@@ -86,25 +87,27 @@
 	</header><!-- End Header -->
 
 
-	<!-- ======= Counts Section ======= -->
+	<!-- ======= View Profiles Section ======= -->
 	<section id="counts" class="counts" style="height: 100%; overflow:auto; padding-bottom: 30%">
-		<div class="container" style="margin-top:100px;">
+        <div class="container" style="margin-top:100px;">
 
-			<div class="row">
+		<div class="row">
 
-            <div class="col-lg-4 col-sm-6">
+
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-1" name="shortlist-cb">
+							<label for="shortlist-1"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 1</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -115,24 +118,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 1</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-2" name="shortlist-cb">
+							<label for="shortlist-2"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 2</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -143,24 +172,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 2</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-3" name="shortlist-cb">
+							<label for="shortlist-3"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 3</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -171,24 +226,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 3</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-4" name="shortlist-cb">
+							<label for="shortlist-4"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 4</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -199,24 +280,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 4</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-5" name="shortlist-cb">
+							<label for="shortlist-5"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 5</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -227,24 +334,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 5</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-6" name="shortlist-cb">
+							<label for="shortlist-6"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 6</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -255,24 +388,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal6" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 6</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-7" name="shortlist-cb">
+							<label for="shortlist-7"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 7</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -283,24 +442,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal7" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 7</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-8" name="shortlist-cb">
+							<label for="shortlist-8"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 8</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -311,24 +496,50 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal8" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 8</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <!-- Profile card comes here -->
+            <div class="col-lg-4 col-sm-6 red">
                 <div class="thumbnail">
                 	<div class="shortlist-box">
                 		<p>
-							<input type="checkbox" id="shortlist" name="shortlist-cb">
-							<label for="shortlist"> Shortlist</label>
+							<input type="checkbox" id="shortlist-9" name="shortlist-cb">
+							<label for="shortlist-9"> Shortlist</label>
 						</p>
                 	</div>
                 <!-- Image comes here -->
                 <div><span class="dot"></span></div>
 
                 <div class="profile-info">
-                	<b>Name</b><br>
+                	<b>Name 9</b><br>
                 	<p>Experience: 2 years</p>
                 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -339,99 +550,40 @@
 	                </div>
 				</div>
 
-				<div class="btn btn-primary" style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small;">View Profile</div>
-
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal9" 
+				style="margin-top:200px; margin-left: 190px; height: 27px; width: auto; font-size: small; text-align: center;">
+					View Profile
+                </button>
                 </div>
+                <!-- Modal comes here -->
+                <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Name 9</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+                        </div>
+
+						<div class="modal-body mb-0 p-0">
+                            <p style=" text-align: left; padding: 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam exercitationem obcaecati itaque facere necessitatibus explicabo reiciendis repellat deserunt nesciunt totam maxime dignissimos asperiores perspiciatis voluptates molestiae quod, nisi magni!</p>
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+							  <iframe style="padding: 7%;" class="embed-responsive-item" src="https://player.vimeo.com/video/115098447"
+								allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+					  </div>
+					</div>
+                </div>  
             </div>
 
-
-
-
-
+        
         </div>
-
     </div>
-
-        <style type="text/css">
-        	.thumbnail {
-        		background: #FFFFFF;
-				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-				border-radius: 10px;
-				height: 350px;
-				margin: 5%;
-        	}
-        	.shortlist-box {
-        		position: relative;
-				height: 21px;
-				left: 70%;
-				top: 5%;
-				font-size: small;
-        	}
-        	input[type="checkbox"] {
-			  visibility: hidden;
-			}
-        	input[type="checkbox"] + label:before {
-			  border: 1px solid #333;
-			  content: "\00a0";
-			  display: inline-block;
-			  font: 16px/1em Roboto;
-			  height: 18px;
-			  width: 18px;
-			}
-			input[type="checkbox"]:checked + label:before {
-			  background: #fff;
-			  color: #333;
-			  content: "\2713";
-			  text-align: center;
-			}
-			input[type="checkbox"]:checked + label:after {
-			  font-weight: bold;
-			}
-
-			.profile-info {
-				position: absolute;
-				width: 183px;
-				height: 251px;
-				left: 135px;
-				top: 60px;
-				font-size: smaller;
-			}
-			.dot {
-			  height: 67px;
-			  width: 67px;
-			  background-color: #bbb;
-			  border-radius: 50%;
-			  display: inline-block;
-			  top: 20px;
-			  left: 20px;
-			  position: relative;
-			}
-			.tags {
-				position: relative;
-				width: 191px;
-				height: 26px;
-				top: 10px;
-				display: inline-block;
-			}
-			.tag {
-				width: 80px;
-				height: 22px;
-				background: #EAEAEA;
-				border-radius: 24px;
-				margin: 2%;
-				text-align: center;
-				font-family: Roboto;
-				line-height: 16px;
-			}
- 
-        </style> 
-
-
 	</section><!-- End Counts Section -->
-
-
-
-
 
 	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
@@ -446,11 +598,14 @@
 	<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 	<script src="../assets/vendor/venobox/venobox.min.js"></script>
 	<script src="../assets/vendor/aos/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script type='text/javascript' data-cfasync='false'>
 		window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'cba81b05-48a1-446d-b797-ee56a1e3f351', f: true }); done = true; } }; })();
 	</script>
 	<!-- Template Main JS File -->
-	<script src="../assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 </body>
 
