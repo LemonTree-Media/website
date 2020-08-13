@@ -638,7 +638,7 @@ section {
 }
 
 .about .content .btn-learn-more:hover {
-  background: #black;
+  background: black;
   color: #fff;
   text-decoration: none;
 }
@@ -842,7 +842,7 @@ section {
 .more-services .card-title {
   font-weight: 700;
   text-align: center;
-  margin-bottom: 10px;    <----rgba(255, 255, 255, 0.9)--->
+  margin-bottom: 10px;    
 }
 
 .more-services .card-title a {
@@ -1688,6 +1688,7 @@ section {
   background: #fff;
   text-align: center;
 }
+
 .max {
   position: absolute;
   left: 25.49%;
@@ -1779,4 +1780,24 @@ input[type="checkbox"]:checked + label:after {
   border-radius: 50%;
   height: 4.5rem;
   width: 4.5rem;
+}
+
+.btn-vp{
+  margin-top:190px; 
+  color: white; 
+  background: #57aae1; 
+  box-shadow: 0px 4px 4px rgba(53, 152, 220, 0.5); 
+  border-radius: 5px; 
+  border-color:  #57aae1;
+  margin-left: 190px; 
+  height: 27px; 
+  width: 105px; 
+  font-size: small; 
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.btn-vp:hover {
+  background: #3598DC;
 }
