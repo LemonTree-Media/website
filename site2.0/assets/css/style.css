@@ -1711,6 +1711,7 @@ section {
   left: 67.5%;
   top: 5%;
   font-size: small;
+  font-family: "Avenir"
 }
 
 input[type="checkbox"] {
@@ -1721,7 +1722,7 @@ label:before {
   border: 1px solid #333;
   content: '';
   display: inline-block;
-  font: 16px/1em Roboto;
+  font: 16px/1em "Avenir";
   height: 18px;
   width: 18px;
   position: absolute;
@@ -1749,6 +1750,7 @@ input[type="checkbox"]:checked + label:after {
   top: 60px;
   font-size: small;
   display: flexbox;
+  font-family: "Avenir"
 }
 
 .tags {
@@ -1768,8 +1770,8 @@ input[type="checkbox"]:checked + label:after {
   border-radius: 24px;
   margin: 2%;
   text-align: center;
-  font-family: Roboto;
   line-height: 16px;
+  font-family: "Avenir"
 }
 
 .circular--square {
@@ -1795,8 +1797,17 @@ input[type="checkbox"]:checked + label:after {
   text-align: center;
   white-space: nowrap;
   overflow-x: auto;
+  font-family: "Avenir"
 }
 
 .btn-vp:hover {
   background: #3598DC;
+}
+
+.modal-info{
+  font-family: "Avenir";
+  font-size: small; 
+  margin-top: 2%; 
+  margin-left: 5%; 
+  flex-wrap: wrap;
 }
