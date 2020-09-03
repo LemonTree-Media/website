@@ -4,29 +4,35 @@ body {
   margin: 0;
   padding: 0;
   font-style: 18px;
+  font-family: Avenir;
 }
 
 .section-heading {
   color: #625f5f;
   font-size: 32px;
+  font-family: Avenir;
 }
 
 .title-heading {
   font-size: 54px !important;
   color: #3a3838 !important;
+  font-family: Avenir;
 }
 
 .heading-subtitle {
   font-style: 24px;
   color: #7b7676;
+  font-family: Avenir;
 }
 
 .final-price h4{
   font-size: 2.7rem;
+  font-family: Avenir;
 }
 
 .final-price p{
   font-size: 2.1rem;
+  font-family: Avenir;
 }
 
 .exclamation-top {
@@ -102,6 +108,7 @@ body {
 
 .box-text {
   margin-left: 30px !important;
+  font-family: Avenir;
 }
 
 .custom-select {
@@ -163,7 +170,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .budget-range::before {
   position: absolute;
-  content: "$500";
+  content: "$1K";
   bottom: -30px;
   left: 0;
   color: #605f5b;
@@ -172,7 +179,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .budget-range::after {
   position: absolute;
-  content: "$100k";
+  content: "$200K";
   bottom: -30px;
   right: 0;
   font-size: 13px;
