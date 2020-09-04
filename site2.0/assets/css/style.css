@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a {
-  background: #B9D9EB;
+  background: #00008B;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 30px;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a:hover {
-  background: #57aae1;
+  background: #B9D9EB;
   color: #fff;
 }
 
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #474d54;
+  background: #a9a9a9;
   color: #fff;
 }
 
@@ -1678,7 +1678,7 @@ section {
 /*--------------------------------------------------------------
 # CSS additions for the collaborative platform 
 --------------------------------------------------------------*/
-.progress-bar {
+ .progress-bar {
   position: absolute;
   left: 25.49%;
   right: 22.01%;
@@ -1711,7 +1711,6 @@ section {
   left: 67.5%;
   top: 5%;
   font-size: small;
-  font-family: "Avenir"
 }
 
 input[type="checkbox"] {
@@ -1748,30 +1747,31 @@ input[type="checkbox"]:checked + label:after {
   max-height: 251px;
   left: 135px;
   top: 60px;
-  font-size: small;
+  font-size: smaller;
   display: flexbox;
-  font-family: "Avenir"
 }
 
 .tags {
   position: relative;
   width: 191px;
   height: 26px;
-  top: 10px;
+  top: 3px;
   display: inline-block;
   display: flex;
 }
 
 .tag {
   margin: 0 auto;
-  width: 80px;
+  width: 100px;
   height: 22px;
   background: #EAEAEA;
   border-radius: 24px;
   margin: 2%;
   text-align: center;
   line-height: 16px;
-  font-family: "Avenir"
+  font-size: smaller;
+  font-weight: bolder;
+  padding: 2%;
 }
 
 .circular--square {
@@ -1797,7 +1797,6 @@ input[type="checkbox"]:checked + label:after {
   text-align: center;
   white-space: nowrap;
   overflow-x: auto;
-  font-family: "Avenir"
 }
 
 .btn-vp:hover {
@@ -1805,9 +1804,16 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .modal-info{
-  font-family: "Avenir";
-  font-size: small; 
+  font-size: smaller; 
   margin-top: 2%; 
   margin-left: 5%; 
   flex-wrap: wrap;
+}
+
+.congrats-box {
+  position: absolute;
+  text-align: left;
+  padding: 7%;
+  font-family: Arial;
+  font-size: medium;
 }
