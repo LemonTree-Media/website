@@ -1,0 +1,192 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+  margin: 0;
+  font-family: "Avenir", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: auto;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p { 
+	font-size: 1.25rem;
+}
+
+h1 {
+	font-size: 3.3rem;
+}
+h2 {
+	font-size: 2.3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  p { 
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 2.7rem;
+}
+h2 {
+	font-size: 1.8rem;
+}
+}
+
+@media only screen and (max-width: 900px) {
+ p { 
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 2.3rem;
+}
+h2 {
+	font-size: 1.9rem;
+}
+	
+}
+
+
+
+.homepage-whatwedo{
+	text-align: center;
+	margin: 150px auto;
+	h1{
+		font-weight: 900;
+		padding: 15px;
+	}
+	p{
+		padding:10px;
+	}
+	button{
+		margin:30px auto;
+	}
+	container {
+ 		 display: flex; 
+	}
+}
+
+
+.homepage-steps{
+	img{
+		width:100%;
+	}
+	h2{
+		font-weight: 900;
+		margin-left:5rem;
+		margin-bottom: -7.5rem;
+		width:40%
+
+	}
+	#uline{
+		text-decoration: underline;
+	}
+	Button{
+		margin: -14.3rem 0.6rem 3rem 57rem;
+	}
+	container {
+ 		 display: flex; 
+	}
+
+}
+@media only screen and (max-width: 1060px) {
+	.homepage-steps{
+		display: none
+	}
+	
+}
+
+
+.homepage-data{
+	text-align: center;
+	float:left
+	img{
+		width: 8%;
+	}
+	h2{
+		font-weight: 900;
+		padding: 1rem 2rem;
+		width:100%
+	}
+	#data1{
+		width: 39.8%;
+		padding: 2rem;
+		margin-left: 2rem;
+	}
+	#data2{
+		width: 36.5%;
+		padding: 2rem;
+		margin-top:0.8rem;
+		margin-left: 0.5rem;
+
+	}
+	container {
+ 		 display: flex; 
+	}
+	
+}
+@media only screen and (max-width: 960px) {
+	.homepage-data{
+	#data1{
+		width: 59.8%;
+		padding: 2rem;
+		margin-left: 2rem;
+	}
+	#data2{
+		width: 56.5%;
+		padding: 2rem;
+		margin-top:0.8rem;
+		margin-left: 0.5rem;
+
+	}
+	img{
+		width: 18%
+	}
+	}
+	
+}
+@media only screen and (min-width: 960px) {
+	.homepage-data{
+	
+	img{
+		width: 12%
+	}
+	}
+	
+}
+@media only screen and (max-width: 660px) {
+	.homepage-data{
+	#data1{
+		width: 79.8%;
+		padding: 2rem;
+		margin-left: 2rem;
+	}
+	#data2{
+		width: 76.5%;
+		padding: 2rem;
+		margin-top:0.8rem;
+		margin-left: 0.5rem;
+
+	}
+	img{
+		width: 30%
+	}
+
+	}
+	
+}
+
+
+
+
+
+
+
