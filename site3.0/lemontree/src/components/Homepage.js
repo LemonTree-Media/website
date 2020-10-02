@@ -4,7 +4,8 @@ import HomepageHero from './Homepage/HomepageHero';
 import HomepageClientList from './Homepage/HomepageClientList';
 import HomepageWhatWeDo from './Homepage/HomepageWhatWeDo';
 import HomepageSteps from './Homepage/HomepageSteps';
-import HomepageWhyTakeAction from './Homepage/HomepageWhyTakeAction';
+import HomepageTrusted from './Homepage/HomepageTrusted';
+import HomepageWhyUs from './Homepage/HomepageWhyUs';
 import HomepageInteractiveVideo from './Homepage/HomepageInteractiveVideo';
 import HomepageUserIdentify from './Homepage/HomepageUserIdentify';
 import HomepageTestimonialList from './Homepage/HomepageTestimonialList';
@@ -17,7 +18,8 @@ function Homepage() {
           <HomepageClientList />
           <HomepageWhatWeDo />
           <HomepageSteps />
-          <HomepageWhyTakeAction />
+          <HomepageTrusted/>
+          <HomepageWhyUs/>
           <HomepageInteractiveVideo />
           <HomepageUserIdentify />
           <HomepageTestimonialList />
