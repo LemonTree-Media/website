@@ -4,7 +4,7 @@ function HomepageWhoWeAre() {
     return (
         <div className="mb-5 mx-medium">
           <p className="h1 font-weight-bold mb-4 text-center">
-            Why LemonTree Media
+            Who We Are
           </p>
           <div className="mb-3">
             LemonTree is a global problem solving community and traceable idea network to offer organizational solutions. LemonTree Media is its creative chapter.
@@ -18,6 +18,7 @@ function HomepageWhoWeAre() {
                 Idea is the visual representation of a creator's work. Every video in LemonTree Media is logged as an idea.
               </p>
             </div>
+            <div className="spacer"></div>
             <div>
               <p className="h3 font-weight-bold mb-4">
                 Solvers

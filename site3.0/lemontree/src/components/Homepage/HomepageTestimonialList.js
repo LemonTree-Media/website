@@ -8,24 +8,24 @@ function HomepageTestimonialList() {
     return (
         <div className="mb-large text-center">
           <HomepageTestimonial
-              name="Leslie F."
-              company="Pypestream"
-              title="Chief Experience Officer"
-              text="Lorem upsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur metus vel ante euismod consecetur."
+              name="Meryl T."
+              company="Gramercy"
+              title="Chief Marketing Officer"
+              text="LemonTree became a true brand partner and delved into understanding my brand and target customers. The team was extremely punctual, professional, and considerate throughout the entire process. The director, Wyddie, not only is a natural storyteller, but also has an unwavering determination to aid us in meeting Gramercy's business goals!"
               image={null}
               videoPosition="right"
           >
-            <VideoEmbed />
+            <VideoEmbed videoLink="https://embedder.wirewax.com/8176540/" />
           </HomepageTestimonial>
           <HomepageTestimonial
               name="Jacob U."
               company="HeroTech"
               title="Chief Experience Officer"
-              text="Lorem upsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur metus vel ante euismod consecetur."
+              text="LemonTree Media went above and beyond my expectation to deliver something meaningful. The storytelling was awesome and the music works great with the video, simply stunning. Thank you for all your hard work."
               image={null}
               videoPosition="left"
           >
-            <VideoEmbed />
+            <VideoEmbed videoLink="https://player.vimeo.com/video/396527090?color=e84c4d&title=0&byline=0&portrait=0" />
           </HomepageTestimonial>
 
           <Button size="sm" variant="outline-secondary">

@@ -1,21 +1,25 @@
 /* React starter */
 
 body {
-  margin: 0;
-  font-family: "Avenir", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 0.85em !important;
+    margin: 0;
+    font-family: "Avenir LT", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                 sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.85em !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+                 monospace;
 }
 
 /* custom css, only where necessary */
+
+b strong {
+    font-weight: 700;
+}
 
 .client-logo { width: 70%; }
 
@@ -30,6 +34,7 @@ footer {
 
 img {
     max-width: 100%;
+    border-radius: 9px;
 }
 
 .mb-medium {
@@ -50,6 +55,14 @@ img {
     margin-right: 20vw;
 }
 
+.spacer {
+    width: 5rem;
+}
+
+.translate-up {
+    margin-top: -12em;
+}
+
 /* react-bootstrap customization */
 
 $theme-colors: (
@@ -58,6 +71,7 @@ $theme-colors: (
 
 .btn {
     font-size: 0.75rem;
+    border-radius: 9px !important;
 }
 
 .jumbotron {
@@ -66,6 +80,10 @@ $theme-colors: (
 
 .navbar-expand .navbar-nav .nav-link:not(:last-child) {
     padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
 }
 
 @import '~bootstrap/scss/bootstrap.scss';

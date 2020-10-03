@@ -6,7 +6,7 @@ function HomepageWhyUs() {
     return (
         <div className="mb-large mx-medium text-center">
           <p className="h1 font-weight-bold mb-4"> Why LemonTree Media </p>
-          <div className="d-flex justify-content-around mb-4">
+          <div className="d-flex justify-content-between mb-4">
             <div className="col">
               <div className="h2 font-weight-bold">9x</div>
               <div className="text-left mt-2">
@@ -36,7 +36,7 @@ function HomepageWhyUs() {
             </div>
           </div>
 
-          <Button size="sm">Explore our Solution</Button> <br /><br />
+          <Button size="sm">Explore our solution</Button> <br /><br />
           <Button size="sm">Download Product Brochure</Button> 
         </div>
     );
