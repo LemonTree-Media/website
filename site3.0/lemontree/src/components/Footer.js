@@ -5,7 +5,7 @@ import Logo from './Logo';
 
 function Footer() {
     return (
-        <footer className="mt-3 p-3">
+        <footer className="mt-3 p-5">
           <div className="row">
             <div className="col">
               <Logo height={25} /> <br /><br />

@@ -8,8 +8,11 @@ function HomepageTestimonial(props) {
         <div className="mx-medium mb-5">
           <div className="row">
             { LEFT &&
-              <div className="col">
-                {props.children}
+              <div>
+                <div className="col">
+                  {props.children}
+                </div>
+                <div className="spacer"> </div>
               </div>
             }
             <div className="col">
@@ -20,13 +23,16 @@ function HomepageTestimonial(props) {
                   <div className="h5 mb-4">{props.title}</div>
                 </div>
               </div>
-              <div>
-                {props.text}
+              <div className="text-left">
+                <em>{props.text}</em>
               </div>
             </div>
             { RIGHT &&
-              <div className="col">
-                {props.children}
+              <div>
+                <div className="spacer"> </div>
+                <div className="col">
+                  {props.children}
+                </div>
               </div>
             }
           </div>

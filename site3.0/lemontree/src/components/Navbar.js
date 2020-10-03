@@ -19,7 +19,7 @@ function LT_Navbar() {
             </NavDropdown>
             <Nav.Link href="/">FAQ</Nav.Link>
             <Nav.Link href="/">About</Nav.Link>
-            <Button variant="outline-secondary">Get Started</Button>
+            <Button size="sm" variant="outline-secondary">Get Started</Button>
           </Nav>
         </Navbar>
     );
