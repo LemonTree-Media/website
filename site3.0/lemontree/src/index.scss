@@ -55,12 +55,21 @@ img {
     margin-right: 20vw;
 }
 
+.profile {
+    max-height: 60px;
+    border-radius: 50%;
+}
+
+svg {
+    width: 100%;
+}
+
 .spacer {
     width: 5rem;
 }
 
 .translate-up {
-    margin-top: -12em;
+    margin-top: -10em;
 }
 
 /* react-bootstrap customization */
@@ -72,18 +81,39 @@ $theme-colors: (
 .btn {
     font-size: 0.75rem;
     border-radius: 9px !important;
+    padding: 0.5rem 1rem !important;
 }
 
 .jumbotron {
     margin-bottom: 0.5rem;
 }
 
-.navbar-expand .navbar-nav .nav-link:not(:last-child) {
+.navbar-expand .navbar-nav .nav-link:not(:nth-child(4)) {
     padding-right: 1rem;
+}
+
+.dropdown {
+    padding-right: 0.25rem;
+}
+
+.h1 {
+    font-size: 3.7em !important;
+}
+
+.h2 {
+    font-size: 3em !important;
+}
+
+.navbar-expand .navbar-nav .nav-link:nth-child(4) {
+    padding-right: 1.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: black !important;
+}
+
+p {
+    font-size: 1.4em;
 }
 
 @import '~bootstrap/scss/bootstrap.scss';

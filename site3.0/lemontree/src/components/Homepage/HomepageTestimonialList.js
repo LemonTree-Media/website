@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 import HomepageTestimonial from './HomepageTestimonialList/HomepageTestimonial';
 import VideoEmbed from '../VideoEmbed';
+import jacob from '../../assets/jacob.jpeg';
 
 function HomepageTestimonialList() {
     return (
@@ -22,7 +23,7 @@ function HomepageTestimonialList() {
               company="HeroTech"
               title="Chief Experience Officer"
               text="LemonTree Media went above and beyond my expectation to deliver something meaningful. The storytelling was awesome and the music works great with the video, simply stunning. Thank you for all your hard work."
-              image={null}
+              image={jacob}
               videoPosition="left"
           >
             <VideoEmbed videoLink="https://player.vimeo.com/video/396527090?color=e84c4d&title=0&byline=0&portrait=0" />

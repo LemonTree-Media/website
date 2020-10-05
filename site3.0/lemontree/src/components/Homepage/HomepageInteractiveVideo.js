@@ -14,19 +14,19 @@ function HomepageInteractiveVideo() {
             <div className="col">
               <div className="mb-2">
                 <Icofont size="3" icon="business-man-alt-3" /> &nbsp;
-                <span> Personalized, data-driven videos </span>
+                <p className="d-inline"> Personalized, data-driven videos </p>
               </div>
               <div className="mb-2">
                 <Icofont size="3" icon="link" /> &nbsp;
-                <span> Video with clear call-to-actions </span>
+                <p className="d-inline"> Video with clear call-to-actions </p>
               </div>
               <div className="mb-2">
                 <Icofont size="3" icon="fire-burn" /> &nbsp;
-                <span> Video with interactive buttons embedded </span>
+                <p className="d-inline"> Video with interactive buttons embedded </p>
               </div>
               <div className="mb-4">
                 <Icofont size="3" icon="chart-flow" /> &nbsp;
-                <span> Video with multiple storylines </span>
+                <p className="d-inline"> Video with multiple storylines </p>
               </div>
               <div className="text-center">
                 <Button size="sm" variant="outline-secondary">

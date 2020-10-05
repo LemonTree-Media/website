@@ -6,9 +6,9 @@ function HomepageWhoWeAre() {
           <p className="h1 font-weight-bold mb-4 text-center">
             Who We Are
           </p>
-          <div className="mb-3">
+          <p className="mb-3">
             LemonTree is a global problem solving community and traceable idea network to offer organizational solutions. LemonTree Media is its creative chapter.
-          </div>
+          </p>
           <div className="d-flex flex-row justify-content-between">
             <div>
               <p className="h3 font-weight-bold mb-4">
