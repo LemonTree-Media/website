@@ -17,14 +17,14 @@ function HomepageTestimonial(props) {
             }
             <div className="col">
               <div className="d-flex flex-row">
-                <img src={props.image} alt={props.name} className="mr-2" />
+                <img src={props.image} alt={props.name} className="profile mr-3" />
                 <div>
                   <div className="h4">{props.name} | {props.company}</div>
                   <div className="h5 mb-4">{props.title}</div>
                 </div>
               </div>
               <div className="text-left">
-                <em>{props.text}</em>
+                <p><em>{props.text}</em></p>
               </div>
             </div>
             { RIGHT &&
