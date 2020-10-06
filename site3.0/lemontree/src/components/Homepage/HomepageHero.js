@@ -1,11 +1,14 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
+import hero from '../../assets/hero-img.svg';
+
 function HomepageHero() {
     return (
-        <div className="jumbotron jumbotron-fluid text-center">
-          <div className="h1 font-weight-bold mb-5">Build your interactive video marketing <br /> with a network of top creatives</div>
-          <Button size="sm">See our work</Button>
+        <div className="bg">
+        	<img src={hero} alt="LemonTree Media Hero" className="translate-up" />
+          <div className="h1 font-weight-bold mb-5 top-left">Build your interactive video <br />marketing  with a network <br />of top creatives</div>
+          <Button size="sm top-right">See our work</Button>
         </div>
     );
 }

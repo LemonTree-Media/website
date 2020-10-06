@@ -21,11 +21,11 @@ b strong {
     font-weight: 700;
 }
 
-.client-logo { width: 70%; }
+.client-logo { width: 67%; }
 
 footer {
     background-color: whitesmoke;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 .green {
@@ -63,13 +63,16 @@ img {
 svg {
     width: 100%;
 }
+a{
+    text-decoration:underline;
+}
 
 .spacer {
     width: 5rem;
 }
 
 .translate-up {
-    margin-top: -10em;
+    margin-top: -1.5em;
 }
 
 /* react-bootstrap customization */
@@ -96,12 +99,13 @@ $theme-colors: (
     padding-right: 0.25rem;
 }
 
+
 .h1 {
     font-size: 3.7em !important;
 }
 
 .h2 {
-    font-size: 3em !important;
+    font-size: 2.7em !important;
 }
 
 .navbar-expand .navbar-nav .nav-link:nth-child(4) {
@@ -116,4 +120,23 @@ p {
     font-size: 1.4em;
 }
 
+
+/* element-specific customization */
+
+.top-left {
+  position: absolute;
+  top: 11rem;
+  left: 7rem;
+}
+.top-right {
+  position: absolute;
+  top: 26rem;
+  right: 21rem;
+}
+.bg{
+    margin-top: 1rem;
+}
+
 @import '~bootstrap/scss/bootstrap.scss';
+
+

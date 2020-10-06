@@ -4,16 +4,17 @@ import Button from 'react-bootstrap/Button';
 import HomepageTestimonial from './HomepageTestimonialList/HomepageTestimonial';
 import VideoEmbed from '../VideoEmbed';
 import jacob from '../../assets/jacob.jpeg';
+import meryl from '../../assets/meryl.jpeg';
 
 function HomepageTestimonialList() {
     return (
         <div className="mb-large text-center">
           <HomepageTestimonial
               name="Meryl T."
-              company="Gramercy"
+              company="Gramercy Gift Guide"
               title="Chief Marketing Officer"
               text="LemonTree became a true brand partner and delved into understanding my brand and target customers. The team was extremely punctual, professional, and considerate throughout the entire process. The director, Wyddie, not only is a natural storyteller, but also has an unwavering determination to aid us in meeting Gramercy's business goals!"
-              image={null}
+              image={meryl}
               videoPosition="right"
           >
             <VideoEmbed videoLink="https://embedder.wirewax.com/8176540/" />

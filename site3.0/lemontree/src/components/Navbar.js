@@ -13,10 +13,8 @@ function LT_Navbar() {
           <Navbar.Brand href="/"><Logo/></Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="/">Our Solution</Nav.Link>
-            <NavDropdown alignRight title="Work">
-              <NavDropdown.Item href="/">All Video Work</NavDropdown.Item>
-              <NavDropdown.Item href="/">Case Studies</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/">Work</Nav.Link>
+            
             <Nav.Link href="/">FAQ</Nav.Link>
             <Nav.Link href="/">About</Nav.Link>
             <Button size="sm" variant="outline-secondary">Get Started</Button>
