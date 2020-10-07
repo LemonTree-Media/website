@@ -1,5 +1,8 @@
 import React from 'react';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Route,
+         Redirect,
+         Switch,
+         BrowserRouter as Router } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
@@ -12,9 +15,13 @@ function App() {
         <div className="lt-app">
           <Router>
             <Navbar />
-            <Route path='/' exact component={Homepage} />
-            <Route path='/bidding' exact component={Bidding} />
-            <Route path='/idea' exact component={IdeaNetwork} />
+            <Switch>
+              <Route path='/' exact component={Homepage} />
+              <Route path='/bidding' exact component={Bidding} />
+              <Route path='/idea' exact component={IdeaNetwork} />
+
+              <Redirect to='/' />
+            </Switch>
             <Footer />
           </Router>
         </div>

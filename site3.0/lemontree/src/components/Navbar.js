@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 
 import Logo from './Logo';
@@ -11,7 +10,11 @@ import Logo from './Logo';
 function LT_Navbar() {
     return (
         <Navbar className="border-bottom">
-          <Navbar.Brand href="/"><Logo/></Navbar.Brand>
+          <Navbar.Brand>
+            <Link to="/">
+              <Logo/>
+            </Link>
+          </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="/">Our Solution</Nav.Link>
             <Nav.Link href="/">Work</Nav.Link>
