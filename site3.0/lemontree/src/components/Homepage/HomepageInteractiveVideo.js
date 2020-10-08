@@ -37,7 +37,7 @@ function HomepageInteractiveVideo() {
               </div>
             </Col>
             <Col className="col" xl={6} xs={12} md={6}>
-              <img src={interactiveVideo} alt="Interactive video example" />
+              <img id="interactive" src={interactiveVideo} alt="Interactive video example" />
             </Col>
           </Row>
         </div>

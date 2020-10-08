@@ -6,7 +6,7 @@ import steps from '../../assets/steps.svg';
 
 function HomepageSteps() {
     return (
-        <div className="mb-large">
+        <div className="mb-large d-none d-lg-block">
           <div className="mb-3">
             <div className="ml-3 text-left h2 font-weight-bold">
               Connect with the most <br /> suitable pre-vetted creatives <br />in under 24 hours
