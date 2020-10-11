@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Icofont from 'react-icofont';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col'
@@ -40,6 +41,7 @@ function HomepageInteractiveVideo() {
               <img id="interactive" src={interactiveVideo} alt="Interactive video example" />
             </Col>
           </Row>
+
         </div>
     );
 }

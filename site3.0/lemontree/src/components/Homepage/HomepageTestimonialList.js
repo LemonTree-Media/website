@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Button from 'react-bootstrap/Button';
 
 import HomepageTestimonial from './HomepageTestimonialList/HomepageTestimonial';
@@ -33,6 +34,7 @@ function HomepageTestimonialList() {
           <Button size="sm" variant="outline-secondary">
             View More Case Studies
           </Button>
+
         </div>
     );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -32,6 +33,7 @@ function HomepageUserIdentify() {
               <Button size="sm"> Learn More </Button>
             </div>
           </div>
+
         </div>
     );
 }
