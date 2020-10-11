@@ -1,5 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
+
 import Icofont from 'react-icofont';
 
 import Logo from './Logo';
@@ -54,14 +54,7 @@ function Footer() {
                                    </span>
           </div>
         </footer>
-=======
 
-function Footer() {
-    return (
-        <div>
-          Footer
-        </div>
->>>>>>> Michael
     );
 }
 

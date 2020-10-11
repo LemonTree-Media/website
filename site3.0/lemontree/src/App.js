@@ -1,5 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
+
 import { Route,
          Redirect,
          Switch,
@@ -31,22 +31,4 @@ function App() {
 
 export default App;
  
-=======
-import './index.scss';
 
-import Navbar from './components/Navbar';
-import Homepage from './components/Homepage';
-import Footer from './components/Footer';
-
-function App() {
-  return (
-      <div className="lt-app">
-        <Navbar />
-        <Homepage />
-        <Footer />
-      </div>
-  );
-}
-
-export default App;
->>>>>>> Michael
