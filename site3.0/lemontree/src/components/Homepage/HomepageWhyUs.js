@@ -12,20 +12,20 @@ function HomepageWhyUs() {
             <Col className="d-xs-block" xl={3} xs={12} md={6}>
               <div className="h2 font-weight-bold">9x</div>
               <p className="text-left mt-2">
-                Ability to add interactivity to boost video engagement by 9x. Collect video performance metrics and conduct A/B tests.
+                Ability to add interactivity to boost video engagement by 9x. 
               </p>
             </Col>
             <Col xl={3} xs={12} md={6}>
               <Icofont size="3" icon="dollar" />
               <p className="text-left mt-3">
-                Have top-vetted creators bid to ensure best price in the market. Filter creatives based on price & industry.
+                Have top-vetted creators bid to ensure best price in the market. 
               </p>
             </Col>
             <Col xl={3} xs={12} md={6}>
-              <Icofont size="3" icon="heart" />
+              <Icofont size="3" icon="heart" className="mr-5"/>
               <div className="text-left mt-3">
                 <p>
-                  Deep partnership to understand your brand top-down and bottom up. &nbsp;
+                  Deep partnership to understand your brand in depth. &nbsp;
                   <small>
                     <a href="/">See how we did it.</a>
                   </small>
@@ -33,9 +33,9 @@ function HomepageWhyUs() {
               </div>
             </Col>
             <Col xl={3} xs={12} md={6}>
-              <Icofont size="3" icon="film" />
+              <Icofont size="3" icon="film" className="mr-3"/>
               <p className="text-left mt-3">
-                Leverage data insights to inform creative decisions, producing best-in-class, viral, authentic storytelling content.
+                Leverage data insights to inform creative decisions, producing best-in-class content.
               </p>
             </Col>
           </Row>

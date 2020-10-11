@@ -20,7 +20,8 @@ function HomepageTrusted() {
               <Col className="col border-left text-left ml-3 mb-3" xl={4} xs={9} md={4}>
                 <div className="h2 font-weight-bold green">3x</div>
                 <p>
-                  faster in finding the right video creatives. Industry average procurement processes take 3+ weeks. We take less than a week. &nbsp;
+                  faster in finding the right video creatives. 
+                  Procure creatives and RFP in less than a week. &nbsp;
                   <small>
                     <a href="/">See how we did it.</a>
                   </small>
@@ -30,7 +31,8 @@ function HomepageTrusted() {
               <Col className="col border-left text-left ml-3 mb-3" xl={4} xs={9} md={4}>
                 <div className="h2 font-weight-bold green">2x</div>
                 <p>
-                  faster in video content production. Industry average production cycles are 1-3 months. We take 16-30 days. &nbsp;
+                  faster in video content production. 
+                  Produce videos from concept to launch in 16-30 days. &nbsp;
                   <small>
                     <a href="/">See how we did it.</a>
                   </small>
