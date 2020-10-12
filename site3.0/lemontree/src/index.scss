@@ -153,7 +153,6 @@ header {
   }
 }
 
-
 .success {
   color: #0ff40f;
 }
@@ -161,6 +160,22 @@ header {
 .error {
   color: #960303;
 }
+
+/* bidding page customization */
+.thank-you-modal{
+  color:transparent !important;
+
+  .modal-content{
+     background-color: transparent !important;
+     border-color: transparent !important;
+ }
+  Button{
+    margin-top:-7rem;
+    margin-left: 3.5rem;
+    width:12rem;
+  }
+}
+
 
 @import '~bootstrap/scss/bootstrap.scss';
 

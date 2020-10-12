@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom'
 import axios from 'axios';
+import PopupModal from './PopupModal'
 import { Form, Button } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   const [state, setState] = useState({
     name: '',
     email: '',
     phone: '',
-    message: ''
+    message: '',
   });
 
   const [result, setResult] = useState(null);
@@ -41,6 +44,15 @@ const ContactForm = () => {
       [name]: value
     });
   };
+  const showModal = e => {
+    setState({
+      show: !state.show
+    });
+  };
+
+const [modalShow, setModalShow] = React.useState(false);
+  
+
 
   return (
     <div className="mt-5 mb-5 ml-5">
@@ -49,7 +61,8 @@ const ContactForm = () => {
           {result.message}
         </p>
       )}
-      <form onSubmit={sendEmail} >
+      <form onSubmit={sendEmail} method="POST">
+
         <Form.Group controlId="name" className="mt-3 mb-3">
           <Form.Label><strong>Full Name:*</strong></Form.Label>
           <Form.Control
@@ -95,10 +108,16 @@ const ContactForm = () => {
             onChange={onInputChange}
           />
         </Form.Group>
-        <Button variant="primary" type="submit" className="mt-5 mb-5">
+
+        <Button variant="primary" type="submit" className="mt-5 mb-5" onClick={() => setModalShow(true)}>
           Submit
         </Button>
       </form>
+      
+      <PopupModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
     </div>
   );
 };
