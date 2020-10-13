@@ -19,7 +19,7 @@ function Footer() {
               <strong>Our Solution</strong> <br /><br />
               Overview <br /><br />
               Features <br /><br />
-              Industry Applications <br /><br />
+              Testimonials <br /><br />
               FAQ
             </div>
             <div className="col">
