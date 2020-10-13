@@ -44,7 +44,6 @@ const ContactForm = (props) => {
       [name]: value
     });
   };
- 
   const showModal = e => {
     setState({
       show: !state.show
@@ -54,6 +53,7 @@ const ContactForm = (props) => {
 const [modalShow, setModalShow] = React.useState(false);
   
 
+
   return (
     <div className="mt-5 mb-5 ml-5">
       {result && (
@@ -62,6 +62,7 @@ const [modalShow, setModalShow] = React.useState(false);
         </p>
       )}
       <form onSubmit={sendEmail} method="POST">
+
         <Form.Group controlId="name" className="mt-3 mb-3">
           <Form.Label><strong>Full Name:*</strong></Form.Label>
           <Form.Control
@@ -107,6 +108,7 @@ const [modalShow, setModalShow] = React.useState(false);
             onChange={onInputChange}
           />
         </Form.Group>
+
         <Button variant="primary" type="submit" className="mt-5 mb-5" onClick={() => setModalShow(true)}>
           Submit
         </Button>
@@ -116,7 +118,6 @@ const [modalShow, setModalShow] = React.useState(false);
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-
     </div>
   );
 };

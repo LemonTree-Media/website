@@ -1,0 +1,23 @@
+body {
+  background: white;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: avenir;
+}
+
+h1{
+	color:black;
+}
+
+header {
+  margin: 20px;
+  text-align: center;
+}
+
+.success {
+  color: #0ff40f;
+}
+
+.error {
+  color: #960303;
+}

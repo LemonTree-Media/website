@@ -1,10 +1,10 @@
 import React from 'react';
 
-function VideoEmbed() {
+
+function VideoEmbed(props) {
     return (
-        <div>
-         VideoEmbed
-        </div>
+        <iframe src={props.videoLink} width="480" height="270" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+
     );
 }
 

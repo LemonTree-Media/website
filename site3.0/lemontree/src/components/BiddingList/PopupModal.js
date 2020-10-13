@@ -17,7 +17,7 @@ function PopupModal(props) {
        <img src={ThankYou} alt="LemonTree Media Thank You" />
       
       
-         <Button onClick={props.onHide}>Return to Home Page</Button>
+         <Button className="return-to-home" onClick={props.onHide}>Return to home</Button>
      
     </Modal>
   );

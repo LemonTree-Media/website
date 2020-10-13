@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../index.scss'
 
 
-
 class Bidding extends React.Component {
 		constructor(){
 			super();
@@ -36,7 +35,6 @@ class Bidding extends React.Component {
 
 	}
 	
-			
 	
 }
 

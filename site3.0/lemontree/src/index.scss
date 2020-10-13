@@ -1,200 +1,166 @@
-@import "~bootstrap/scss/bootstrap";
 
+/* React starter */
 
 body {
-  margin: 0;
-  font-family: "Avenir", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: auto;
+    margin: 0;
+    font-family: "Avenir LT", avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                 sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.85em !important;
 }
-
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-p { 
-	font-size: 1.25rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+                 monospace;
 }
 
-h1 {
-	font-size: 3.3rem;
-}
-h2 {
-	font-size: 2.3rem;
+/* custom css, only where necessary */
+
+b strong {
+    font-weight: 700;
 }
 
-@media only screen and (max-width: 1200px) {
-  p { 
-	font-size: 1rem;
+.client-logo { width: 67%; }
+
+footer {
+    background-color: whitesmoke;
+    font-size: 0.9rem;
 }
 
-h1 {
-	font-size: 2.7rem;
-}
-h2 {
-	font-size: 1.8rem;
-}
+.green {
+    color: rgb(67,192,64);
 }
 
-@media only screen and (max-width: 900px) {
- p { 
-	font-size: 1rem;
+img:not(#sider) {
+    max-width: 100%;
+    border-radius: 9px;
 }
 
-h1 {
-	font-size: 2.3rem;
-}
-h2 {
-	font-size: 1.9rem;
-}
-	
+.mb-medium {
+    margin-bottom: 7rem;
 }
 
-
-
-.homepage-whatwedo{
-	text-align: center;
-	margin: 150px auto;
-	h1{
-		font-weight: 900;
-		padding: 15px;
-	}
-	p{
-		padding:10px;
-	}
-	button{
-		margin:30px auto;
-	}
-	container {
- 		 display: flex; 
-	}
+.mb-large {
+    margin-bottom: 7rem;
 }
 
-
-.homepage-steps{
-	img{
-		width:100%;
-	}
-	h2{
-		font-weight: 900;
-		margin-left:5rem;
-		margin-bottom: -7.5rem;
-		width:40%
-
-	}
-	#uline{
-		text-decoration: underline;
-	}
-	Button{
-		margin: -14.3rem 0.6rem 3rem 57rem;
-	}
-	container {
- 		 display: flex; 
-	}
-
+.mx-medium {
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
-@media only screen and (max-width: 1060px) {
-	.homepage-steps{
-		display: none
-	}
-	
+
+.mx-large {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.profile {
+    max-height: 60px;
+    border-radius: 50%;
+}
+
+svg {
+    width: 100%;
+}
+a{
+    text-decoration: underline;
+}
+
+.spacer {
+    width: 5rem;
+}
+
+.translate-up {
+    margin-top: -1.5em;
+}
+
+/* react-bootstrap customization */
+
+$theme-colors: (
+    "secondary": black
+);
+
+.btn {
+    font-size: 0.75rem;
+    border-radius: 9px !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.jumbotron {
+    margin-bottom: 0.5rem;
+}
+
+.navbar-expand .navbar-nav .nav-link:not(:nth-child(4)) {
+    padding-right: 1rem;
+}
+
+.dropdown {
+    padding-right: 0.25rem;
 }
 
 
-.homepage-data{
-	text-align: center;
-	float:left
-	img{
-		width: 8%;
-	}
-	h2{
-		font-weight: 900;
-		padding: 1rem 2rem;
-		width:100%
-	}
-	#data1{
-		width: 39.8%;
-		padding: 2rem;
-		margin-left: 2rem;
-	}
-	#data2{
-		width: 36.5%;
-		padding: 2rem;
-		margin-top:0.8rem;
-		margin-left: 0.5rem;
-
-	}
-	container {
- 		 display: flex; 
-	}
-	
-}
-@media only screen and (max-width: 960px) {
-	.homepage-data{
-	#data1{
-		width: 59.8%;
-		padding: 2rem;
-		margin-left: 2rem;
-	}
-	#data2{
-		width: 56.5%;
-		padding: 2rem;
-		margin-top:0.8rem;
-		margin-left: 0.5rem;
-
-	}
-	img{
-		width: 18%
-	}
-	}
-	
-}
-@media only screen and (min-width: 960px) {
-	.homepage-data{
-	
-	img{
-		width: 12%
-	}
-	}
-	
-}
-@media only screen and (max-width: 660px) {
-	.homepage-data{
-	#data1{
-		width: 79.8%;
-		padding: 2rem;
-		margin-left: 2rem;
-	}
-	#data2{
-		width: 76.5%;
-		padding: 2rem;
-		margin-top:0.8rem;
-		margin-left: 0.5rem;
-
-	}
-	img{
-		width: 30%
-	}
-
-	}
-	
+.h1 {
+    font-size: 3.7em !important;
 }
 
-<<<<<<< Updated upstream
+.h2 {
+    font-size: 2.7em !important;
+}
 
-=======
+.navbar-expand .navbar-nav .nav-link:nth-child(4) {
+    padding-right: 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+
+/* element-specific customization */
+
+.top-left {
+  position: absolute;
+  top: 11rem;
+  left: 7rem;
+}
+#sider{
+  position: absolute;
+  width: 358% !important;
+  top: -55.9rem;
+  right: -4.5rem;
+}
+form{
+    font-size: 1rem;
+}
+.top-right {
+  position: absolute;
+  top: 26rem;
+  right: 21rem;
+}
+.bg{
+    margin-top: 1rem;
+}
+header {
+  text-align: left;
+  h1 {
+    font-weight:bolder
+  }
+}
+
 .success {
   color: #0ff40f;
 }
->>>>>>> Stashed changes
 
+.error {
+  color: #960303;
+}
 
-<<<<<<< Updated upstream
-=======
 /* bidding page customization */
 .thank-you-modal{
   color:transparent !important;
@@ -206,13 +172,89 @@ h2 {
   Button{
     margin-top:-7rem;
     margin-left: 3.5rem;
-    width:12rem;
+    width:10rem;
   }
 }
 
+/* mobile optimization */
+@media only screen and (max-width: 900px) {
+    .h1{
+      font-size:2.5rem !important;
+    }
+    .h2{
+      font-size:2rem !important;
+    }
+    .bg{
+        .h1{
+          font-size:2.5rem !important;
+          margin-left:-2.5rem;
+          margin-right:1.5rem;
+          margin-top:-2rem !important;
+        }
+        .translate-up{
+          width: 100%;
+          height: 30rem;
+          overflow: hidden;
+          object-position: 90% 50%;
+          object-fit: cover;
+        }
+        .top-right {
+          position: absolute;
+          top: 27rem;
+          right:18.5rem;
+        }
+      
+    }
+
+
+}
+
+@media only screen and (max-width: 1160px) {
+    .h1{
+      font-size:2.5rem !important;
+    }
+    .h2{
+      font-size:2rem !important;
+    }
+    .bg{
+        .h1{
+          font-size:2.5rem !important;
+          margin-left:-2.5rem;
+          margin-right:1.5rem;
+          margin-top:1rem;
+        }
+        .translate-up{
+          width: 100%;
+          height: 30rem;
+          overflow: hidden;
+          object-position: 90% 50%;
+          object-fit: cover;
+        }
+        .top-right {
+          position: absolute;
+          top: 27rem;
+          right:18.5rem;
+        }
+      
+    }
+
+    .return-to-home{
+      visibility: hidden;
+    }
+
+    #sider{
+      position: absolute;
+      width: 448% !important;
+      top: -58.9rem;
+      right: -4.5rem;
+}
+
+
+}
+
+
 
 @import '~bootstrap/scss/bootstrap.scss';
->>>>>>> Stashed changes
 
 
 
