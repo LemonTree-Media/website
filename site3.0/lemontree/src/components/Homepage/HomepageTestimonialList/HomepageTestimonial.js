@@ -3,6 +3,8 @@ import React from 'react';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
+import VideoEmbed from '../../VideoEmbed';
+
 function HomepageTestimonial(props) {
     let LEFT, RIGHT;
     props.videoPosition === "right" ? RIGHT = true : LEFT = true;
@@ -13,7 +15,7 @@ function HomepageTestimonial(props) {
             { LEFT &&
               <div>
                 <Col className="col" xl={6} xs={12} md={12}>
-                  {props.children}
+                  <VideoEmbed videoLink={props.videoLink} />
                 </Col>
                 <div className="spacer"> </div>
               </div>

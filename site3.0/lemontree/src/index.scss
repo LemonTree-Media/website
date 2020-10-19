@@ -18,33 +18,47 @@ code {
 
 /* custom css, only where necessary */
 
-b strong {
-    font-weight: 700;
+a {
+    text-decoration: underline;
+}
+
+a.no-text-decoration { font-size: 1.4em; }
+
+b strong { font-weight: 700; }
+
+.block-underline { border-bottom: 1px solid black; }
+
+.block-underline-hover:hover { border-bottom: 1px solid black; }
+
+.btn-xs {
+    font-size: 0.7rem !important;
+    padding: 0.25rem 0.5rem !important;
 }
 
 .client-logo { width: 67%; }
+
+.fixed-width-100 {
+    display: inline-block;
+    width: 100px;
+}
 
 footer {
     background-color: whitesmoke;
     font-size: 0.9rem;
 }
 
-.green {
-    color: rgb(67,192,64);
-}
+.gray { color: var(--gray); }
+
+.green { color: rgb(67,192,64); }
 
 img:not(#sider) {
     max-width: 100%;
     border-radius: 9px;
 }
 
-.mb-medium {
-    margin-bottom: 7rem;
-}
+.mb-medium { margin-bottom: 7rem; }
 
-.mb-large {
-    margin-bottom: 7rem;
-}
+.mb-large { margin-bottom: 7rem; }
 
 .mx-medium {
     margin-left: 10vw;
@@ -56,6 +70,8 @@ img:not(#sider) {
     margin-right: 20vw;
 }
 
+.no-text-decoration { text-decoration: none !important; }
+
 .profile {
     max-height: 60px;
     border-radius: 50%;
@@ -64,16 +80,13 @@ img:not(#sider) {
 svg {
     width: 100%;
 }
-a{
-    text-decoration: underline;
-}
+.spacer { width: 5rem; }
 
-.spacer {
-    width: 5rem;
-}
+.translate-up { margin-top: -1.5em; }
 
-.translate-up {
-    margin-top: -1.5em;
+.video-description {
+    border-radius: 9px;
+    border: 2px solid whitesmoke;
 }
 
 /* react-bootstrap customization */
@@ -81,6 +94,16 @@ a{
 $theme-colors: (
     "secondary": black
 );
+
+a {
+    color: inherit !important;
+}
+
+a:hover {
+    color: inherit !important;
+}
+
+.bg { margin-top: 1rem; }
 
 .btn {
     font-size: 0.75rem;
@@ -117,39 +140,34 @@ $theme-colors: (
     color: black !important;
 }
 
-p {
-    font-size: 1.4em;
-}
+p { font-size: 1.4em; }
 
 
 /* element-specific customization */
 
 .top-left {
-  position: absolute;
-  top: 11rem;
-  left: 7rem;
+    position: absolute;
+    top: 11rem;
+    left: 7rem;
 }
-#sider{
+#sider {
   position: absolute;
   width: 358% !important;
   top: -55.9rem;
   right: -4.5rem;
 }
-form{
+form {
     font-size: 1rem;
 }
 .top-right {
-  position: absolute;
-  top: 26rem;
-  right: 21rem;
-}
-.bg{
-    margin-top: 1rem;
+    position: absolute;
+    top: 26rem;
+    right: 21rem;
 }
 header {
   text-align: left;
   h1 {
-    font-weight:bolder
+    font-weight: bolder
   }
 }
 
@@ -162,36 +180,36 @@ header {
 }
 
 /* bidding page customization */
-.thank-you-modal{
-  color:transparent !important;
+.thank-you-modal {
+  color: transparent !important;
 
-  .modal-content{
+  .modal-content {
      background-color: transparent !important;
      border-color: transparent !important;
  }
-  Button{
-    margin-top:-7rem;
+  Button {
+    margin-top: -7rem;
     margin-left: 3.5rem;
-    width:10rem;
+    width: 10rem;
   }
 }
 
 /* mobile optimization */
 @media only screen and (max-width: 900px) {
-    .h1{
-      font-size:2.5rem !important;
+    .h1 {
+      font-size: 2.5rem !important;
     }
-    .h2{
-      font-size:2rem !important;
+    .h2 {
+      font-size: 2rem !important;
     }
-    .bg{
-        .h1{
-          font-size:2.5rem !important;
-          margin-left:-2.5rem;
-          margin-right:1.5rem;
-          margin-top:-2rem !important;
+    .bg {
+        .h1 {
+          font-size: 2.5rem !important;
+          margin-left: -2.5rem;
+          margin-right: 1.5rem;
+          margin-top: -2rem !important;
         }
-        .translate-up{
+        .translate-up {
           width: 100%;
           height: 30rem;
           overflow: hidden;
@@ -210,20 +228,20 @@ header {
 }
 
 @media only screen and (max-width: 1160px) {
-    .h1{
-      font-size:2.5rem !important;
+    .h1 {
+      font-size: 2.5rem !important;
     }
-    .h2{
-      font-size:2rem !important;
+    .h2 {
+      font-size: 2rem !important;
     }
-    .bg{
-        .h1{
-          font-size:2.5rem !important;
+    .bg {
+        .h1 {
+          font-size: 2.5rem !important;
           margin-left:-2.5rem;
           margin-right:1.5rem;
           margin-top:1rem;
         }
-        .translate-up{
+        .translate-up {
           width: 100%;
           height: 30rem;
           overflow: hidden;
@@ -233,16 +251,16 @@ header {
         .top-right {
           position: absolute;
           top: 27rem;
-          right:18.5rem;
+          right: 18.5rem;
         }
       
     }
 
-    .return-to-home{
+    .return-to-home {
       visibility: hidden;
     }
 
-    #sider{
+    #sider {
       position: absolute;
       width: 448% !important;
       top: -58.9rem;
