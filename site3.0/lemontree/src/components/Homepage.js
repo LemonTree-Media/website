@@ -18,8 +18,10 @@ function Homepage() {
           <HomepageClientList />
           <HomepageWhatWeDo />
           <HomepageSteps />
+
           <HomepageTrusted/>
           <HomepageWhyUs/>
+
           <HomepageInteractiveVideo />
           <HomepageUserIdentify />
           <HomepageTestimonialList />

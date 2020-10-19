@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Icofont from 'react-icofont';
 
 import Logo from './Logo';
@@ -18,7 +19,7 @@ function Footer() {
               <strong>Our Solution</strong> <br /><br />
               Overview <br /><br />
               Features <br /><br />
-              Industry Applications <br /><br />
+              Testimonials <br /><br />
               FAQ
             </div>
             <div className="col">
@@ -53,6 +54,7 @@ function Footer() {
                                    </span>
           </div>
         </footer>
+
     );
 }
 

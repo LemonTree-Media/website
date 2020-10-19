@@ -2,6 +2,7 @@ import React from 'react';
 
 function HomepageWhoWeAre() {
     return (
+
         <div className="mb-5 mx-medium">
           <p className="h1 font-weight-bold mb-5 text-center">
             Who We Are
@@ -28,6 +29,7 @@ function HomepageWhoWeAre() {
               </p>
             </div>
           </div>
+
         </div>
     );
 }

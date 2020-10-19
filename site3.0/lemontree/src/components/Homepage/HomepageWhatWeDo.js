@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 
+
 function HomepageWhatWeDo() {
     return (
     	<div className="mb-large mx-medium text-center">
@@ -8,6 +9,7 @@ function HomepageWhatWeDo() {
           <p className="mb-5">Cost-effective, one-stop interactive video marketing solutions leveraging a network of top creatives.</p>
           <Button size="sm" variant="outline-secondary">What is Interactive Video?</Button>
         </div>
+
     );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
@@ -12,7 +13,7 @@ function HomepageUserIdentify() {
                 I am a marketer
               </p>
               <p>
-                As a marketer, you partner deeply with our creatives using LemonTree's market intelligence solutions to skyrocket growth.
+                As a marketer, you tell us your marketing challenges and partner deeply with creatives.
               </p>
             </Col>
             <Col className="col text-center" xl={6} xs={12} md={6}>
@@ -20,7 +21,7 @@ function HomepageUserIdentify() {
                 I am a creative
               </p>
               <p>
-                You focus on solving brand challenges and we help you book jobs faster. Each video on LemonTree is logged as "ideas," which you can use as support when you propose solutions to brands.
+                As a creative, you focus on solving brand challenges. We help you book jobs faster and build your reel.
               </p>
             </Col>
           </Row>
@@ -32,6 +33,7 @@ function HomepageUserIdentify() {
               <Button size="sm"> Learn More </Button>
             </div>
           </div>
+
         </div>
     );
 }

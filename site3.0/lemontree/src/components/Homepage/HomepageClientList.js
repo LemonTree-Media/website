@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HomepageClientLogo from './HomepageClientList/HomepageClientLogo';
+
 import logo_cgc from '../../assets/logo_cgc.jpeg';
 import logo_ggg from '../../assets/logo_ggg.jpeg';
 import logo_olay from '../../assets/logo_olay.jpeg';
@@ -43,6 +44,7 @@ function HomepageClientList() {
                 clientName="AIC"
                 src={logo_aic} />
           </div>
+
         </div>
     );
 }
