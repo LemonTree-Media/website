@@ -17,33 +17,43 @@ code {
 
 /* custom css, only where necessary */
 
-b strong {
-    font-weight: 700;
+a.no-text-decoration { font-size: 1.4em; }
+
+b strong { font-weight: 700; }
+
+.block-underline { border-bottom: 1px solid black; }
+
+.block-underline-hover:hover { border-bottom: 1px solid black; }
+
+.btn-xs {
+    font-size: 0.7rem !important;
+    padding: 0.25rem 0.5rem !important;
 }
 
 .client-logo { width: 67%; }
+
+.fixed-width-100 {
+    display: inline-block;
+    width: 100px;
+}
 
 footer {
     background-color: whitesmoke;
     font-size: 0.9rem;
 }
 
-.green {
-    color: rgb(67,192,64);
-}
+.gray { color: var(--gray); }
+
+.green { color: rgb(67,192,64); }
 
 img {
     max-width: 100%;
     border-radius: 9px;
 }
 
-.mb-medium {
-    margin-bottom: 7rem;
-}
+.mb-medium { margin-bottom: 7rem; }
 
-.mb-large {
-    margin-bottom: 7rem;
-}
+.mb-large { margin-bottom: 7rem; }
 
 .mx-medium {
     margin-left: 10vw;
@@ -55,24 +65,22 @@ img {
     margin-right: 20vw;
 }
 
+.no-text-decoration { text-decoration: none !important; }
+
 .profile {
     max-height: 60px;
     border-radius: 50%;
 }
 
-svg {
-    width: 100%;
-}
-a{
-    text-decoration:underline;
-}
+svg { width: 100%; }
 
-.spacer {
-    width: 5rem;
-}
+.spacer { width: 5rem; }
 
-.translate-up {
-    margin-top: -1.5em;
+.translate-up { margin-top: -1.5em; }
+
+.video-description {
+    border-radius: 9px;
+    border: 2px solid whitesmoke;
 }
 
 /* react-bootstrap customization */
@@ -80,6 +88,16 @@ a{
 $theme-colors: (
     "secondary": black
 );
+
+a {
+    color: inherit !important;
+}
+
+a:hover {
+    color: inherit !important;
+}
+
+.bg { margin-top: 1rem; }
 
 .btn {
     font-size: 0.75rem;
@@ -116,25 +134,20 @@ $theme-colors: (
     color: black !important;
 }
 
-p {
-    font-size: 1.4em;
-}
+p { font-size: 1.4em; }
 
 
 /* element-specific customization */
 
 .top-left {
-  position: absolute;
-  top: 11rem;
-  left: 7rem;
+    position: absolute;
+    top: 11rem;
+    left: 7rem;
 }
 .top-right {
-  position: absolute;
-  top: 26rem;
-  right: 21rem;
-}
-.bg{
-    margin-top: 1rem;
+    position: absolute;
+    top: 26rem;
+    right: 21rem;
 }
 
 @import '~bootstrap/scss/bootstrap.scss';

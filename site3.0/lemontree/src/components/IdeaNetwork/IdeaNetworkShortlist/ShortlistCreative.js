@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { IdeaNetworkContext } from '../../../contexts/IdeaNetworkContext';
 
 function ShortlistCreative() {
+    /* let {state, setName} = useContext(IdeaNetworkContext); // set
+     * let {name} = state;// get
+     * // local state */
+
     return (
         <div>
-        ShortlistCreative component
+          <input type="checkbox" checked />
+          <
         </div>
     );
 }
