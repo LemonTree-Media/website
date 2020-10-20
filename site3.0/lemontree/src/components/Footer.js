@@ -18,13 +18,13 @@ function Footer() {
             <div className="col">
               <strong>Our Solution</strong> <br /><br />
               Overview <br /><br />
-              Features <br /><br />
-              Testimonials <br /><br />
+              Why LemonTree Media? <br /><br />
+              Our Process <br /><br />
               FAQ
             </div>
             <div className="col">
               <strong>Work</strong><br /><br />
-              All Videos<br /><br />
+              Idea Network<br /><br />
               Case Studies<br /><br />
             </div>
             <div className="col">

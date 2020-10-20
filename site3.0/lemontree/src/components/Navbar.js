@@ -19,8 +19,8 @@ function LT_Navbar() {
             </Link>
           </Navbar.Brand>
           <Nav className="ml-auto">
-            <Nav.Link href="/">Case Studies</Nav.Link>
-            <Nav.Link href="/">Work</Nav.Link>
+            
+            <Nav.Link href="/">Idea Network</Nav.Link>
             
             <Nav.Link href="/">FAQ</Nav.Link>
             <Nav.Link href="/">About</Nav.Link>
