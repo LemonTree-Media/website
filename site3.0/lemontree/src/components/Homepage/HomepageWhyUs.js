@@ -35,12 +35,12 @@ function HomepageWhyUs() {
             <Col xl={3} xs={12} md={6}>
               <Icofont size="3" icon="film" className="mr-3"/>
               <p className="text-left mt-3">
-                Leverage data insights to inform creative decisions, producing best-in-class content.
+                 Produce authentic storytelling content by leveraging data insights.
               </p>
             </Col>
           </Row>
 
-          <Button size="sm" className="mt-5">Explore our solution</Button> <br /><br />
+          <Button size="sm" className="mt-5">Explore our Case Studies</Button> <br /><br />
           <Button size="sm">Download Product Brochure</Button> 
         </div>
     );

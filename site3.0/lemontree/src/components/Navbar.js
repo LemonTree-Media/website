@@ -21,7 +21,6 @@ function LT_Navbar() {
           <Nav className="ml-auto">
             <Nav.Link href="/case-studies">Case Studies</Nav.Link>
             <Nav.Link href="/">Work</Nav.Link>
-            
             <Nav.Link href="/">FAQ</Nav.Link>
             <Nav.Link href="/">About</Nav.Link>
             <Link to="/bidding">

@@ -13,7 +13,7 @@ function HomepageUserIdentify() {
                 I am a marketer
               </p>
               <p>
-                As a marketer, you tell us your marketing challenges and partner deeply with creatives.
+                Access a global network of media content and ideas. Partner with their creators to build your next video marketing campaign.
               </p>
             </Col>
             <Col className="col text-center" xl={6} xs={12} md={6}>
@@ -21,13 +21,13 @@ function HomepageUserIdentify() {
                 I am a creative
               </p>
               <p>
-                As a creative, you focus on solving brand challenges. We help you book jobs faster and build your reel.
+                As a “solver” on our idea network, you focus on bringing your ideas into reality while we help you book jobs faster.
               </p>
             </Col>
           </Row>
           <div className="row text-center">
             <div className="col mt-5 d-none d-sm-block">
-              <Button size="sm"> View Solutions </Button>
+              <Button size="sm"> Explore Idea Network </Button>
             </div>
             <div className="col mt-5 d-none d-sm-block">
               <Button size="sm"> Learn More </Button>
