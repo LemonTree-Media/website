@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Select from 'react-select';
 
-let options = [];
-
 function Filter(props) {
+    let options = [];
+    
     for (let i = 0; i < props.options.length; i++) {
         options.push({value: props.options[i], label: props.options[i]});
     }
