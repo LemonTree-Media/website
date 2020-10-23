@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import Bidding from './components/Bidding';
 import IdeaNetwork from './components/IdeaNetwork';
+import CaseStudies from './components/CaseStudies';
 import Footer from './components/Footer';
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
               <Route path='/' exact component={Homepage} />
               <Route path='/bidding' exact component={Bidding} />
               <Route path='/idea' exact component={IdeaNetwork} />
-
+              <Route path='/profile' exact component={Homepage} />
+              <Route path='/case-studies' exact component={CaseStudies} />
               <Redirect to='/' />
             </Switch>
             <Footer />

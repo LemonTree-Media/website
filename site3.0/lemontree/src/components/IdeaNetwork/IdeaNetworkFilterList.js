@@ -70,6 +70,7 @@ function IdeaNetworkFilterList() {
               name="Budget"
               options={OPTIONS["Budget"]}
           />
+          <input type="checkbox" name="Originals"/> LemonTree Originals
         </div>
     );
 }
