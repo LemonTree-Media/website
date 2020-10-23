@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Select from 'react-select';-
+import Select from 'react-select';
 
 function Filter(props) {
     let options = [];
