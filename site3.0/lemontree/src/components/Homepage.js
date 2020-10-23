@@ -16,6 +16,7 @@ function Homepage() {
         <div>
           <HomepageHero />
           <HomepageClientList />
+          <HomepageUserIdentify />
           <HomepageWhatWeDo />
           <HomepageSteps />
 
@@ -23,7 +24,6 @@ function Homepage() {
           <HomepageWhyUs/>
 
           <HomepageInteractiveVideo />
-          <HomepageUserIdentify />
           <HomepageTestimonialList />
           <HomepageWhoWeAre />
         </div>
