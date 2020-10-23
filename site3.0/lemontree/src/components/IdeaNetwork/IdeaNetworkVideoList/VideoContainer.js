@@ -6,9 +6,8 @@ import VideoEmbed from '../../VideoEmbed';
 
 function VideoContainer(props) {
     return (
-        <div className="m-2 mb-4">
-          <VideoEmbed videoLink={props.videoLink} />
-          <div className="video-description m-0 p-3 d-flex justify-content-between align-items-center">
+        <div className="m-2 mb-4 video-description">
+          <div className="m-0 p-2 d-flex justify-content-between align-items-center">
             <div>
               <img src={props.creativePic} alt={props.creativeName} className="profile mr-3 mt-2" />
               <b>{props.creativeName}</b>
@@ -24,8 +23,9 @@ function VideoContainer(props) {
               </Button>
             </div>
           </div>
-          <div>
-            <div className="p-2 d-flex justify-content-between">
+          <VideoEmbed videoLink={props.videoLink} />
+          <div className="mx-3">
+            <div className="py-2 d-flex justify-content-between align-items-center">
               <h4 className="font-weight-bold">
                 {props.clientName} | {props.videoName}
               </h4>

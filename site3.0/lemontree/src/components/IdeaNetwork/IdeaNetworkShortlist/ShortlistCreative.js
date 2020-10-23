@@ -10,7 +10,6 @@ function ShortlistCreative() {
     return (
         <div>
           <input type="checkbox" checked />
-          <
         </div>
     );
 }
