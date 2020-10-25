@@ -10,6 +10,7 @@ import HomepageInteractiveVideo from './Homepage/HomepageInteractiveVideo';
 import HomepageUserIdentify from './Homepage/HomepageUserIdentify';
 import HomepageTestimonialList from './Homepage/HomepageTestimonialList';
 import HomepageWhoWeAre from './Homepage/HomepageWhoWeAre';
+import HomepageOurOffering from './Homepage/HomepageOurOffering';
 
 function Homepage() {
     return (
@@ -18,13 +19,15 @@ function Homepage() {
           <HomepageClientList />
           <HomepageUserIdentify />
           <HomepageWhatWeDo />
-          <HomepageSteps />
+          <HomepageOurOffering />
+          
 
           <HomepageTrusted/>
           <HomepageWhyUs/>
 
           <HomepageInteractiveVideo />
           <HomepageTestimonialList />
+          <HomepageSteps />
           <HomepageWhoWeAre />
         </div>
     );

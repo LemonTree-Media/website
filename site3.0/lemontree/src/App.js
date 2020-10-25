@@ -10,7 +10,12 @@ import Homepage from './components/Homepage';
 import Bidding from './components/Bidding';
 import IdeaNetwork from './components/IdeaNetwork';
 import CaseStudies from './components/CaseStudies';
+import OurServices from './components/OurServices';
+import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Challenges from './components/Challenges';
+import CreativeProfile from './components/CreativeProfile';
+
 
 function App() {
     return (
@@ -23,6 +28,10 @@ function App() {
               <Route path='/idea' exact component={IdeaNetwork} />
               <Route path='/profile' exact component={Homepage} />
               <Route path='/case-studies' exact component={CaseStudies} />
+              <Route path='/challenges' exact component={Challenges} />
+              <Route path='/our-services' exact component={OurServices} />
+              <Route path='/frequently-asked-questions' exact component={FAQ} />
+              <Route path='/creative-profile' exact component={CreativeProfile} />
               <Redirect to='/' />
             </Switch>
             <Footer />

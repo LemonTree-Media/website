@@ -10,7 +10,7 @@ import Logo from './Logo';
 //avoid namespace conflict
 function LT_Navbar() {
     return (
-        <Navbar className="border-bottom" expand="lg">
+        <Navbar className="border-bottom navbar" sticky="top" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Navbar.Brand>
@@ -19,10 +19,11 @@ function LT_Navbar() {
             </Link>
           </Navbar.Brand>
           <Nav className="ml-auto">
+          <Nav.Link href="/creative-profile">temp</Nav.Link>
             <Nav.Link href="/case-studies">Case Studies</Nav.Link>
             <Nav.Link href="/idea">Idea Network</Nav.Link>
-            <Nav.Link href="/">FAQ</Nav.Link>
-            <Nav.Link href="/">About</Nav.Link>
+            <Nav.Link href="/frequently-asked-questions">FAQ</Nav.Link>
+            <Nav.Link href="/bidding">Contact</Nav.Link>
             <Link to="/bidding">
               <Button size="sm" variant="outline-secondary">Get Started</Button>
             </Link>

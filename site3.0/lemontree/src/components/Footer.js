@@ -26,6 +26,7 @@ function Footer() {
               <strong>Work</strong><br /><br />
               Idea Network<br /><br />
               Case Studies<br /><br />
+              Challenges<br /><br />
             </div>
             <div className="col">
               <strong>About</strong><br /><br />

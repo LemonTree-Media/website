@@ -11,17 +11,17 @@ function HomepageInteractiveVideo() {
     return (
         <div className="mb-large mx-medium">
           <p className="h1 font-weight-bold mb-5 text-center">
-            What is Interactive Video?
+            What is Interactive Media?
           </p>
           <Row className="row">
             <Col className="col" xl={6} xs={12} md={6}>
               <div className="mb-2">
                 <Icofont size="3" icon="business-man-alt-3" /> &nbsp;
-                <p className="d-inline"> Personalized, data-driven videos </p>
+                <p className="d-inline"> Personalized, data-driven video content </p>
               </div>
               <div className="mb-2">
                 <Icofont size="3" icon="link" /> &nbsp;
-                <p className="d-inline"> Video with clear call-to-actions </p>
+                <p className="d-inline"> Video optimized for SEO and conversions </p>
               </div>
               <div className="mb-2">
                 <Icofont size="3" icon="fire-burn" /> &nbsp;
@@ -29,11 +29,11 @@ function HomepageInteractiveVideo() {
               </div>
               <div className="mb-4">
                 <Icofont size="3" icon="chart-flow" /> &nbsp;
-                <p className="d-inline"> Video with multiple storylines </p>
+                <p className="d-inline"> Video with branching storylines </p>
               </div>
               <div className="text-center mt-5 mb-3">
                 <Button size="sm" variant="outline-secondary">
-                  See Industry Examples
+                  See Examples
                 </Button>
               </div>
             </Col>

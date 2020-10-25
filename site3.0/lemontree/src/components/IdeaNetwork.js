@@ -10,7 +10,6 @@ import IdeaNetworkVideoList from './IdeaNetwork/IdeaNetworkVideoList';
 function IdeaNetwork() {
     return (
         <IdeaNetworkProvider>
-          IdeaNetwork component
           <IdeaNetworkShortlist />
           <IdeaNetworkHero />
           <IdeaNetworkDescription />

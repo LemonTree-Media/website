@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row'
 function HomepageWhyUs() {
     return (
         <div className="mb-large mx-medium text-center">
-          <p className="h1 font-weight-bold mb-5"> Why LemonTree Media </p>
+          <p className="h1 font-weight-bold mb-5"> Why take action? </p>
           <Row className="d-flex justify-content-between mb-8">
             <Col className="d-xs-block" xl={3} xs={12} md={6}>
               <div className="h2 font-weight-bold">9x</div>
