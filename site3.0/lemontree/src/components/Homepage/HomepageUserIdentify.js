@@ -13,7 +13,7 @@ function HomepageUserIdentify() {
                 I am a marketer
               </p>
               <p>
-                Access a global network of media content and ideas. Partner with their creators to build your next video marketing campaign.
+                Access a global network of media content and ideas. Partner with our network of creators to build your next video marketing campaign.
               </p>
             </Col>
             <Col className="col text-center" xl={6} xs={12} md={6}>
