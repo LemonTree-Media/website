@@ -13,7 +13,7 @@ function HomepageUserIdentify() {
                 I am a marketer
               </p>
               <p>
-                Access a global network of media content and ideas. Partner with our network of creators to build your next video marketing campaign.
+                Access a global network of media content and ideas. Partner with our network of creators to build your creative film and video content.
               </p>
             </Col>
             <Col className="col text-center" xl={6} xs={12} md={6}>
@@ -21,7 +21,7 @@ function HomepageUserIdentify() {
                 I am a creative
               </p>
               <p>
-                As a “solver” on our idea network, you focus on bringing your ideas into reality while we help you book jobs faster.
+                Make Idea Network your inspiration. As a “solver” on our Idea Network, you focus on bringing your ideas into reality while we help you book jobs faster.
               </p>
             </Col>
           </Row>
