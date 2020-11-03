@@ -15,23 +15,27 @@ function HomepageInteractiveVideo() {
           </p>
           <Row className="row">
             <Col className="col" xl={6} xs={12} md={6}>
-              <div className="mb-2">
-                <Icofont size="3" icon="business-man-alt-3" /> &nbsp;
+              <div className="mb-3">
+                <Icofont size="2" className="iconHome" icon="business-man-alt-3" /> &nbsp;
                 <p className="d-inline"> Personalized, data-driven video content </p>
               </div>
-              <div className="mb-2">
-                <Icofont size="3" icon="link" /> &nbsp;
+              <div className="mb-3">
+                <Icofont size="2" className="iconHome" icon="link" /> &nbsp;
                 <p className="d-inline"> Video optimized for SEO and conversions </p>
               </div>
-              <div className="mb-2">
-                <Icofont size="3" icon="fire-burn" /> &nbsp;
+              <div className="mb-3">
+                <Icofont size="2"  className="iconHome" icon="fire-burn" /> &nbsp;
                 <p className="d-inline"> Video with interactive buttons embedded </p>
               </div>
-              <div className="mb-4">
-                <Icofont size="3" icon="chart-flow" /> &nbsp;
+              <div className="mb-3">
+                <Icofont size="2" className="iconHome" icon="chart-flow" /> &nbsp;
                 <p className="d-inline"> Video with branching storylines </p>
               </div>
-              <div className="text-center mt-5 mb-3">
+              <div className="mb-0">
+                <Icofont size="2" className="iconHome" icon="icofont-magic" /> &nbsp;
+                <p className="d-inline"> AR, VR, 3D, and other new media formats </p>
+              </div>
+              <div className="text-center mt-4 mb-3">
                 <Button size="sm" variant="outline-secondary">
                   See Examples
                 </Button>

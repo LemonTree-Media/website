@@ -8,6 +8,7 @@ import VideoEmbed from '../../VideoEmbed';
 function HomepageTestimonial(props) {
     let LEFT, RIGHT;
     props.videoPosition === "right" ? RIGHT = true : LEFT = true;
+
     
     return (
         <div className="mx-medium mb-5 mt-5 justify-content-center">
@@ -32,7 +33,7 @@ function HomepageTestimonial(props) {
                 <p>{props.text}</p>
               </div>
             </Col>
-            { RIGHT &&
+            { LEFT && 
               <div>
                 <div className="spacer"> </div>
                 <Col className="col" xl={6} xs={12} md={12}>

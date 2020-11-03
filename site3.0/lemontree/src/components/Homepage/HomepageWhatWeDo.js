@@ -8,7 +8,7 @@ function HomepageWhatWeDo() {
     return (
     	<div className="ml-5">
     		<div className="transform">
-    		<p className="h2 font-weight-bold mb-5 ml-5 text-left transform" style={{backgroundColor: "#FFF9AE", width:"75%"}}>Transformation at speed</p>
+    		<p className="h2 font-weight-bold mb-5 ml-5 text-left transform" style={{backgroundColor: "#FFF9AE", width:"75%", borderRadius:"5px", padding:"5px"}}>Transformation at speed</p>
     			<div className="d-flex flex-row">
     				<p className="h1 font-weight-bold mb-5 ml-5 text-left transform">3x</p><p className="mt-4 ml-3">more engagement than traditional videos</p>
     			</div>
@@ -24,8 +24,7 @@ function HomepageWhatWeDo() {
 	    	  <div className="mb-0 mx-medium text-center">
 	          <p className="h1 font-weight-bold mb-5 mr-5">What we do</p>
 	          <p className="mb-5 mt-5">With a global network of creative problem solvers, 
-	          LemonTree Media creates and distributes cost-effective, 
-	          best-in-class interactive video content, combining in-depth brand 
+	          LemonTree Media creates and launches cost-effective interactive media content, combining in-depth brand 
 	          understanding and market intelligence.</p>
 	         
 	        </div>

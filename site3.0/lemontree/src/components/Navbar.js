@@ -23,9 +23,9 @@ function LT_Navbar() {
             <Nav.Link href="/case-studies">Case Studies</Nav.Link>
             <Nav.Link href="/idea">Idea Network</Nav.Link>
             <Nav.Link href="/frequently-asked-questions">FAQ</Nav.Link>
-            <Nav.Link href="/bidding">Contact</Nav.Link>
+            
             <Link to="/bidding">
-              <Button size="sm" variant="outline-secondary">Get Started</Button>
+              <Button size="sm" className="CTA" variant="outline-secondary">Get Started</Button>
             </Link>
           </Nav>
           </Navbar.Collapse>

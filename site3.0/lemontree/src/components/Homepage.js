@@ -20,13 +20,12 @@ function Homepage() {
           <HomepageUserIdentify />
           <HomepageWhatWeDo />
           <HomepageOurOffering />
-          
+          <HomepageTestimonialList />
 
           <HomepageTrusted/>
           <HomepageWhyUs/>
 
           <HomepageInteractiveVideo />
-          <HomepageTestimonialList />
           <HomepageSteps />
           <HomepageWhoWeAre />
         </div>

@@ -41,11 +41,9 @@ function VideoContainer(props) {
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" size="sm" onClick={handleClose}>
-                Return Home
+                Return
               </Button>
-              <Button variant="primary" size="sm" onClick={handleClose}>
-                See Our Work
-              </Button>
+              
             </Modal.Footer>
           </Modal>
         </div>

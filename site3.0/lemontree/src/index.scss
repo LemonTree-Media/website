@@ -38,8 +38,15 @@ b strong { font-weight: 700 !important; }
 
 .client-logo { width: 67%; }
 
-.icofont-star{
+.icofont-star {
   color: #FFBD2E;
+}
+
+.iconHome {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 5px;
+   box-shadow: 4px 3px 10px 0.5px #D3D3D3;
 }
 
 .tag{
@@ -105,6 +112,10 @@ img:not(#sider) {
     margin-right: 20vw;
 }
 
+iframe {
+  border-radius: 9px;
+}
+
 .no-text-decoration { text-decoration: none !important; }
 
 .profile {
@@ -132,6 +143,10 @@ svg {
     width: 20%;
 }
 
+.creativeModal {
+  padding: 2rem! important;
+}
+
 .transform {margin-left: 3rem; margin-bottom: 3rem}
 
 /* react-bootstrap customization */
@@ -151,6 +166,11 @@ a:hover {
 }
 .navbar {
   background-color:white;
+  font-size: 0.9rem;
+}
+
+.CTA {
+  margin-left: 1rem
 }
 
 .bg { margin-top: 1rem; }
@@ -236,6 +256,11 @@ form {
     top: 26rem;
     right: 21rem;
 }
+.heroExplain {
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: -14rem;
+}
 .bottom-left{
     position: absolute;
     top: 20rem;
@@ -298,6 +323,11 @@ header {
           top: 27rem;
           right:18.5rem;
         }
+        .heroExplain {
+          position: absolute;
+          margin-left: 4.5rem;
+          margin-top: -15rem;
+        }
       
     }
 
@@ -330,6 +360,12 @@ header {
           top: 27rem;
           right: 18.5rem;
         }
+        .heroExplain {
+          position: absolute;
+          margin-left: 4.5rem;
+          margin-top: -15rem;
+        }
+        
       
     }
 

@@ -8,7 +8,7 @@ function CreativeProfileVideo(props) {
    			
    		
    			<VideoGallery 
-   				name = "Just Do It"
+   				  name = "Just Do It"
 	      		brand = "Nike"
 	      		videoLink = "https://player.vimeo.com/video/396527090?color=e84c4d&title=0&byline=0&portrait=0"
       		/>
