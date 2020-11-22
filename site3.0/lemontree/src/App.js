@@ -15,16 +15,19 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import Challenges from './components/Challenges';
 import CreativeProfile from './components/CreativeProfile';
+import ScrollToTop from './components/ScrollToTop'
+
 
 
 function App() {
     return (
         <div className="lt-app">
           <Router>
+          <ScrollToTop />
             <Navbar />
             <Switch>
               <Route path='/' exact component={Homepage} />
-              <Route path='/bidding' exact component={Bidding} />
+              <Route path='/get-started' exact component={Bidding} />
               <Route path='/idea' exact component={IdeaNetwork} />
               <Route path='/profile' exact component={Homepage} />
               <Route path='/case-studies' exact component={CaseStudies} />
@@ -37,6 +40,8 @@ function App() {
             <Footer />
           </Router>
         </div>
+
+
     );
 }
 

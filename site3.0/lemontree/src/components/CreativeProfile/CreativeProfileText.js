@@ -3,6 +3,7 @@ import Icofont from 'react-icofont';
 
 
 function CreativeProfileText(props) {
+    const { industry, role, expertise, language, client } = props;
     return (
         <div>
         	 <div className="d-flex flex-row">
@@ -35,12 +36,16 @@ function CreativeProfileText(props) {
         	<div className="d-flex flex-row text-center">
         		
         	</div>
+
+            <p className="">Industry: { industry.map(industry => <span className="tag">{industry}</span>) }</p>
+            <p className="">Expertise: { expertise.map(expertise => <span className="tag">{expertise}</span>) }</p>
+            <p className="">Role: { role.map(role => <span className="tag">{role}</span>) }</p>
+            <p className="">Language: { language.map(language => <span className="tag">{language}</span>) }</p>
+            <p className="">Location: <span className="tag">{props.location}</span></p>
+            <p className="">Client: { client.map(client => <span className="tag">{client}</span>) }</p>
+
         	
-        	<p className="">Industry: <span className="tag">{props.industry}</span></p>
-        	<p className="">Expertise: <span className="tag">{props.expertise}</span></p>
-        	<p className="">Language: <span className="tag">{props.language}</span></p>
-        	<p className="">Location: <span className="tag">{props.location}</span></p>
-        	<p className="">Client: <span className="tag">{props.client}</span></p>
+        	
         </div>
     );
 }

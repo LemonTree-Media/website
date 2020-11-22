@@ -9,16 +9,18 @@ const OPTIONS = {
         "Short Film",
         "Short Documentary",
         "Animation",
-        "Event Videos",
-        "Interviews",
-        "Drone Videos"
+        "Event Video",
+        "Interview",
+        "Drone Video",
+        "Virtual Reality",
+        "Augmented Reality"
     ],
     "Industry" : [
         "All",
-        "B2B",
         "B2C",
+        "B2B",
         "Food",
-        "Technology",
+        "Tech",
         "Ecommerce",
         "Fashion",
         "Sustainability",
@@ -26,7 +28,11 @@ const OPTIONS = {
         "Entertainment",
         "Education",
         "Sports",
-        "Retail"
+        "Retail",
+        "Healthcare",
+        "Energy",
+        "Automobile",
+        "Beauty"
     ],
     "Video Style" : [
         "All",
@@ -46,7 +52,8 @@ const OPTIONS = {
         "$",
         "$$",
         "$$$",
-        "$$$$"
+        "$$$$",
+        "$$$$$"
     ],
 }
 

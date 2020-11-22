@@ -11,6 +11,7 @@ import HomepageUserIdentify from './Homepage/HomepageUserIdentify';
 import HomepageTestimonialList from './Homepage/HomepageTestimonialList';
 import HomepageWhoWeAre from './Homepage/HomepageWhoWeAre';
 import HomepageOurOffering from './Homepage/HomepageOurOffering';
+import HomepageCollaboration from './Homepage/HomepageCollaboration';
 
 function Homepage() {
     return (
@@ -18,16 +19,17 @@ function Homepage() {
           <HomepageHero />
           <HomepageClientList />
           <HomepageUserIdentify />
+          <HomepageCollaboration />
           <HomepageWhatWeDo />
           <HomepageOurOffering />
           <HomepageTestimonialList />
 
-          <HomepageTrusted/>
-          <HomepageWhyUs/>
-
-          <HomepageInteractiveVideo />
+         
+          {/*<HomepageWhyUs/>*/}
           <HomepageSteps />
-          <HomepageWhoWeAre />
+          <HomepageInteractiveVideo />
+           <HomepageTrusted/>
+          {/*<HomepageWhoWeAre />*/}
         </div>
     );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import Icofont from 'react-icofont';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Logo from './Logo';
 
 function Footer() {
     return (
-        <footer className="mt-3 p-5">
+        <footer className="mt-3 p-5 mobileHidden">
           <div className="row">
             <div className="col">
               <Logo height={25} /> <br /><br />
@@ -17,25 +17,23 @@ function Footer() {
             </div>
             <div className="col">
               <strong>Our Solution</strong> <br /><br />
-              Overview <br /><br />
-              Why LemonTree Media? <br /><br />
-              Our Process <br /><br />
-              FAQ
+              <AnchorLink offset={() => 130} href='#offerings'>Overview</AnchorLink> <br /><br />
+              <AnchorLink offset={() => 130} href='#collabUX'>Why Use LemonTree</AnchorLink> <br /><br />
+              <AnchorLink offset={() => 130} href='#ourProcess'>Our Process</AnchorLink> <br /><br />
             </div>
             <div className="col">
-              <strong>Work</strong><br /><br />
-              Idea Network<br /><br />
-              Case Studies<br /><br />
-              Challenges<br /><br />
+              <strong>Content</strong><br /><br />
+              <Link to="/idea">Idea Network</Link><br /><br />
+              <Link to="/idea">Creative Community</Link>
             </div>
-            <div className="col">
+            <div className="col" id="AboutNav">
               <strong>About</strong><br /><br />
-              Our Mission<br /><br />
+              <AnchorLink offset={() => 130} href='#offerings'>Our Mission</AnchorLink><br /><br />
               Blog <br /><br />
               Terms of Service<br /><br />
               Privacy Policy <br /><br />
             </div>
-            <div className="col">
+            <div className="col" id="contactInfo">
               <strong>Contact</strong> <br /><br />
               <em>Prospective Clients:</em><br/>
               michael@lemontreemedia.io<br/><br/>

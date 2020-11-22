@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Icofont from 'react-icofont';
 
-import VideoEmbed from '../../VideoEmbed';
+import VideoEmbed90 from '../../VideoEmbed90';
 import CaseStudiesOverlay from '../CaseStudiesOverlay';
 
 function VideoContainer(props) {
@@ -18,7 +18,7 @@ function VideoContainer(props) {
             <span><em>Assets delivered: 2</em></span>
             <span><em>Views: 2M</em></span>
           </div>
-          <VideoEmbed videoLink={props.videoLink} />
+          <VideoEmbed90 videoLink={props.videoLink} />
           <div className="mx-3">
             <div className="py-2 d-flex justify-content-between align-items-center">
               <h4 className="font-weight-bold">

@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 import VideoEmbed from '../../VideoEmbed';
+import VideoEmbedMobile from '../../VideoEmbedMobile';
 
 function HomepageTestimonial(props) {
     let LEFT, RIGHT;
@@ -15,8 +16,9 @@ function HomepageTestimonial(props) {
           <Row className="row">
             { LEFT &&
               <div>
-                <Col className="col" xl={6} xs={12} md={12}>
+                <Col className="col text-left testVideo mb-2" xl={6} xs={12} md={12}>
                   <VideoEmbed videoLink={props.videoLink} />
+                  <VideoEmbedMobile videoLink={props.videoLink} />
                 </Col>
                 <div className="spacer"> </div>
               </div>

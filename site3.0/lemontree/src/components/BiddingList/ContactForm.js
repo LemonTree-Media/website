@@ -55,7 +55,7 @@ const [modalShow, setModalShow] = React.useState(false);
 
 
   return (
-    <div className="mt-5 mb-5 ml-5">
+    <div className="mt-5 mb-5 ml-5" id="ContactForm">
       {result && (
         <p className={`${result.success ? 'success' : 'error'}`}>
           {result.message}
@@ -96,9 +96,8 @@ const [modalShow, setModalShow] = React.useState(false);
         <Form.Group controlId="message" className="mt-3 mb-0">
           <Form.Label><strong>Tell us More:</strong>*<br/>
           ⛰️ Context: what business problem can we help you solve?<br/>
-          🚩 Goal: what is the purpose of this communication? <br/>
-          🧒 Audience: who is the target audience? <br/>
-          💰 Other: content requirements and logistics.</Form.Label>
+          🚩 Goal: what is the core objective?  <br/>
+          </Form.Label>
           <Form.Control
             as="textarea"
             name="message"

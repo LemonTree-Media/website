@@ -1,10 +1,11 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 import HomepageTestimonial from './HomepageTestimonialList/HomepageTestimonial';
 import jacob from '../../assets/jacob.jpeg';
 import meryl from '../../assets/meryl.jpeg';
+
 
 function HomepageTestimonialList() {
     return (
@@ -28,9 +29,9 @@ function HomepageTestimonialList() {
               videoLink="https://embedder.wirewax.com/8176535/?autoStart=true&"
           />
 
-          <Button size="sm" variant="outline-secondary">
+          {/*<Button size="sm" variant="outline-secondary">
             View More Case Studies
-          </Button>
+          </Button>*/}
 
         </div>
     );

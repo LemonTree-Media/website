@@ -19,14 +19,14 @@ class Bidding extends React.Component {
 		
 		render() {
 		
-				return <div className="container">
+				return <div className="container" id="top">
 							<div className="col-md-7 md-3">
 							 	<Header />
 							 	
 							 	<ContactForm />
 							 	
 							</div>
-							<div className="col-md-1 d-none d-lg-inline float-right">
+							<div className="col-md-2 d-none d-lg-inline float-right">
 								<Sider />
 								
 							</div>
@@ -37,5 +37,7 @@ class Bidding extends React.Component {
 	
 	
 }
+
+
 
 export default Bidding

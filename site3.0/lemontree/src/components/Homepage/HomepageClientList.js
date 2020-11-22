@@ -12,8 +12,8 @@ import logo_aic from '../../assets/logo_aic.jpeg';
 
 function HomepageClientList() {
     return (
-        <div className="mb-5 text-center">
-          <p><em className="h6"><b>Join</b> an amazing brand community who trust the LemonTree network, including:</em></p>
+        <div className="mb-3 mt-4 text-center clientListLogos">
+          <p id="clientList"><em className="h6"><b>Join</b> an amazing brand community who trust the LemonTree network, including:</em></p>
           <div className="d-flex justify-content-between mx-5">
             <HomepageClientLogo
                 className="align-self-center"

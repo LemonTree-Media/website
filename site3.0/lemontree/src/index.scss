@@ -57,6 +57,7 @@ b strong { font-weight: 700 !important; }
   font-size: 0.85rem;
 }
 
+
 .fixed-width-100 {
     display: inline-block;
     width: 100px;
@@ -65,6 +66,17 @@ b strong { font-weight: 700 !important; }
 footer {
     background-color: whitesmoke;
     font-size: 0.9rem;
+}
+ @media only screen and (max-width: 800px) {
+    footer {
+      font-size: 0.7rem;
+  }
+}
+ @media only screen and (max-width: 580px) {
+    #contactInfo {
+      color: transparent;
+      position: absolute
+  }
 }
 
 .gray { color: var(--gray); }
@@ -114,6 +126,10 @@ img:not(#sider) {
 
 iframe {
   border-radius: 9px;
+}
+
+.generalEmbed {
+   border-radius: 0px !important;
 }
 
 .no-text-decoration { text-decoration: none !important; }
@@ -171,6 +187,12 @@ a:hover {
 
 .CTA {
   margin-left: 1rem
+}
+
+@media only screen and (max-width: 760px) {
+    .CTA {
+      margin-left: -.5rem
+    }
 }
 
 .bg { margin-top: 1rem; }
@@ -234,35 +256,45 @@ p { font-size: 1.4em; }
 /* element-specific customization */
 
 .top-left {
-    position: absolute;
-    top: 11rem;
+    position: relative;
+    top: -25rem;
     left: 7rem;
-}
-#sider {
-  position: absolute;
-  width: 358% !important;
-  top: -55.9rem;
-  right: -4.5rem;
 }
 #CTA {
   width: 100%;
-  margin: 0px !important;
 }
+#CTAexplainer{
+  margin-bottom: 7rem
+}
+#collabUX{
+  margin-top: -5rem;
+  z-index: -1;
+  position: relative
+}
+.heroUXImage{
+  size: 30%;
+  width:30% !important;
+}
+@media screen and (min-width: 420px) { .regularHidden iframe { display:none; } .bg-mobile{display:none }; }
 form {
     font-size: 1rem;
 }
 .top-right {
-    position: absolute;
-    top: 26rem;
-    right: 21rem;
+    position: relative;
+    top: -22rem;
+    left: 7rem
 }
 .heroExplain {
-    position: absolute;
-    margin-left: 7rem;
-    margin-top: -14rem;
+    position: relative;
+    top: -25rem;
+    left: 7rem;
+    width: 50%
+}
+#hero-text{
+    width: 60%
 }
 .bottom-left{
-    position: absolute;
+    position: relative;
     top: 20rem;
     right: 26rem;
 }
@@ -280,8 +312,26 @@ header {
 .error {
   color: #960303;
 }
+#clientList {
+  margin-top: -15rem;
+  margin-bottom: .5rem
+}
+
+
 
 /* bidding page customization */
+
+.top-right-sider {
+    position: absolute;
+    top: -22rem;
+    left: -10rem
+}
+#sider {
+  position: absolute;
+  width: 179% !important;
+  top: -55.9rem;
+  left: -2rem;
+}
 .thank-you-modal {
   color: transparent !important;
 
@@ -295,46 +345,192 @@ header {
     width: 10rem;
   }
 }
+    /* bidding page - macbook pro 13 */
+    @media only screen and (max-width: 1400px) {
+      #sider {
+            position: absolute;
+            width: 188% !important;
+            top: -58.9rem;
+            left: -6em;
+
+          }
+
+    }
+    /* bidding page - ipad pro horiz */
+    @media only screen and (max-width: 1367px) {
+      #sider {
+            position: absolute;
+            width: 178% !important;
+            top: -55.9rem;
+            left: -5em;
+
+          }
+
+    }
+    /* bidding page - ipad pro vert, ipad horiz */
+    @media only screen and (max-width: 1160px) {
+      #sider {
+            position: absolute;
+            width: 224% !important;
+            top: -58.9rem;
+            left: -9rem;
+
+          }
+      #ContactForm {
+            margin-left: -50rem
+      }
+
+    }
+
+
 
 /* mobile optimization */
-@media only screen and (max-width: 900px) {
+
+/* home page - all mobile */
+@media only screen and (max-width: 420px) {
     .h1 {
       font-size: 2.5rem !important;
     }
     .h2 {
       font-size: 2rem !important;
     }
+
     .bg {
-        .h1 {
-          font-size: 2.5rem !important;
-          margin-left: -2.5rem;
-          margin-right: 1.5rem;
-          margin-top: -2rem !important;
+        Button{
+          display: none;
         }
-        .translate-up {
-          width: 100%;
-          height: 30rem;
-          overflow: hidden;
-          object-position: 90% 50%;
-          object-fit: cover;
+        img{
+          display: none;    
         }
-        .top-right {
-          position: absolute;
-          top: 27rem;
-          right:18.5rem;
-        }
-        .heroExplain {
-          position: absolute;
-          margin-left: 4.5rem;
-          margin-top: -15rem;
-        }
-      
+    }
+    .heroImageMobile{
+      position: relative;
+      margin-top: -18rem;
+      z-index: -1;
+    }
+    .bg-mobile {
+      margin-bottom: -20rem;
+      Button{
+        margin-top:5rem
+      }
+      #hero-text{
+        position: relative;
+        width: 90%;
+        top: -24rem;
+        left: 2rem;
+        text-align:left
+      }
+      .heroExplainMobile{
+        position: relative;
+        top: -22rem;
+        left: 2rem;
+        width: 90%;
+        text-align: left;
+        font-size: 1rem !important;
+      }
+    }
+    .clientListLogos {
+      display: none;
+    }
+    .mobileHidden iframe{
+      display: none
+    }
+    #AboutNav{
+      display: none
+    }
+    .h4{
+      font-size:1rem!important
+    }
+    .h5{
+      font-size:0.7rem!important
+    }
+    #collabUX{
+      margin-top: 2rem
+    }
+    #whatWeDo{
+      text-align: left;
+      margin-left: -3rem;
+      margin-top: 0rem;
+    }
+    #ourOfferings{
+      margin: auto;
+      padding-bottom: 3rem
+    }
+     #interactive-portion{
+       p{
+        font-size: 0.9rem
+       }
+       width: 80%;
+       margin: auto
+       img{
+        margin: auto;
+        width:100%!important
+       }
+    }
+    #interactive-portion-2{
+       margin-left:2rem;
+    }
+    #interactive{
+      margin-left:5rem
+    }
+    #trusted{
+      margin-top:6rem;
+      margin: 6rem 1rem
     }
 
 
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 750px) {
+  #clientList{
+      margin: 1rem;
+    }
+  .userIdentity{
+    Button{
+      display: none
+    }
+  }
+  #collabUX{
+    margin-top: 5rem
+  }
+
+
+}
+
+/* home page - all mobile horiz, tablet vert*/
+@media only screen and (max-width: 900px) {
+    #clientList{
+      margin-top: -8rem
+    }
+    .bg{
+      Button{
+        width: 10rem;
+        margin-top: -5rem;
+        margin-left: -2rem;
+      }
+    }
+     #interactive-portion{
+       p{
+        font-size: 0.9rem
+       }
+       width: 80%;
+       margin: auto
+       img{
+        margin: auto;
+        width:100%!important
+       }
+    }
+    #interactive-portion-2{
+       margin-left:2rem;
+    }
+     #trusted{
+      margin-top:6rem;
+      margin: 6rem 1rem
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
     .h1 {
       font-size: 2.5rem !important;
     }
@@ -358,33 +554,58 @@ header {
         .top-right {
           position: absolute;
           top: 27rem;
-          right: 18.5rem;
+          right: 50rem;
         }
         .heroExplain {
           position: absolute;
           margin-left: 4.5rem;
-          margin-top: -15rem;
+          margin-top: -13rem;
+          width: 45%
+        }
+        Button{
+          width: 10rem;
+          margin-top: -8rem;
+          margin-left: -2rem
         }
         
       
     }
-
+  #clientList{
+      margin-top: -8rem
+    }
     .return-to-home {
       visibility: hidden;
     }
+    #ourOfferings{
+      margin: auto;
+      padding-bottom: 3rem
+    }
 
-    #sider {
-      position: absolute;
-      width: 448% !important;
-      top: -58.9rem;
-      right: -4.5rem;
+    #interactive-portion{
+       width: 100%;
+       margin: 0rem;
+       img{
+        width:100%;
+        margin: auto;
+        padding: auto
+       }
+    }
+     #interactive-portion-2{
+       margin-left:0rem;
+       .iconHome{
+          margin-left: 2rem;
+       }
+    }
+    .collaboration {
+      display: none
+    }
+    #trusted{
+      margin-top:6rem
+    }
 }
 
 
-}
-
-
-
+    
 @import '~bootstrap/scss/bootstrap.scss';
 @import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 

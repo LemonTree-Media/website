@@ -3,12 +3,13 @@ import Button from 'react-bootstrap/Button';
 import Icofont from 'react-icofont';
 
 function IdeaNetworkOverlay(props) {
+  const { industry, role, expertise, language, client } = props;
     return (
         <div className="creativeModal">
            <div className="d-flex flex-row">
             
-            <img src={props.creativePic} alt={props.creativeName} className="profile mt-4" />
-            <p className="h3 mt-5 ml-5 ">{props.creativeName}</p>
+            <img src={props.creativePic} alt={props.firstname} className="profile mt-4" />
+            <p className="h3 mt-5 ml-5 ">{props.firstname} {props.lastname}</p>
 
            </div>
            <Button variant="success" size="sm">
@@ -41,11 +42,13 @@ function IdeaNetworkOverlay(props) {
             
           </div>
           
-          <p className="">Industry: <span className="tag">{props.industry}</span></p>
-          <p className="">Expertise: <span className="tag">{props.expertise}</span></p>
-          <p className="">Language: <span className="tag">{props.language}</span></p>
-          <p className="">Location: <span className="tag">{props.location}</span></p>
-          <p className="">Client: <span className="tag">{props.client}</span></p>
+            <p className="">Industry: { industry.map(industry => <span className="tag">{industry}</span>) }</p>
+            <p className="">Expertise: { expertise.map(expertise => <span className="tag">{expertise}</span>) }</p>
+            <p className="">Role: { role.map(role => <span className="tag">{role}</span>) }</p>
+            <p className="">Language: { language.map(language => <span className="tag">{language}</span>) }</p>
+            <p className="">Location: <span className="tag">{props.location}</span></p>
+            <p className="">Client: { client.map(client => <span className="tag">{client}</span>) }</p>
+
         </div>
     );
 }

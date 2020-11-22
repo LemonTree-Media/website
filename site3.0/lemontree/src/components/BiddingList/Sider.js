@@ -3,7 +3,7 @@ import Siders from '../../assets/siders.svg';
 
 const Sider = () => (
 	<header>
-		<img src={Siders} alt="LemonTree Media Sider" className="top-right" id="sider" />
+		<img src={Siders} alt="LemonTree Media Sider" className="top-right-sider" id="sider" />
 	</header>
 	);
 
