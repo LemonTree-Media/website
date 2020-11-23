@@ -41,7 +41,7 @@ function IdeaNetworkOverlay(props) {
           <div className="d-flex flex-row text-center">
             
           </div>
-          
+          3
             <p className="">Industry: { industry.map(industry => <span className="tag">{industry}</span>) }</p>
             <p className="">Expertise: { expertise.map(expertise => <span className="tag">{expertise}</span>) }</p>
             <p className="">Role: { role.map(role => <span className="tag">{role}</span>) }</p>

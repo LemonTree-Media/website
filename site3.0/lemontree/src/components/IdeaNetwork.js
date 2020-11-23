@@ -10,12 +10,12 @@ import IdeaNetworkVideoList from './IdeaNetwork/IdeaNetworkVideoList';
 function IdeaNetwork() {
     return (
         <IdeaNetworkProvider>
-         {/* <IdeaNetworkShortlist />*/}
-          <IdeaNetworkHero />
-          <IdeaNetworkDescription />
-          <hr />
-          <IdeaNetworkFilterList />
-          <IdeaNetworkVideoList />
+           {/* <IdeaNetworkShortlist />*/}
+            <IdeaNetworkHero />
+            <IdeaNetworkDescription />
+            <hr />
+            <IdeaNetworkFilterList />
+            <IdeaNetworkVideoList />
         </IdeaNetworkProvider>
     );
 }

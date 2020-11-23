@@ -4,56 +4,56 @@ import Filter from './IdeaNetworkFilterList/Filter';
 
 const OPTIONS = {
     "Video Type" : [
-        "All",
-        "Commercial",
-        "Short Film",
-        "Short Documentary",
-        "Animation",
-        "Event Video",
-        "Interview",
-        "Drone Video",
-        "Virtual Reality",
-        "Augmented Reality"
+      { value: "All", label: "All" },
+      { value: "Commercial", label: "Commercial" },
+      { value: "Short Film", label: "Short Film" },
+      { value: "Short Documentary", label: "Short Documentary" },
+      { value: "Animation", label: "Animation" },
+      { value: "Event Video", label: "Event Video" },
+      { value: "Interview", label: "Interview" },
+      { value: "Drone Video", label: "Drone Video" },
+      { value: "Virtual Reality", label: "Virtual Reality" },
+      { value: "Augmented Reality", label: "Augmented Reality" }
     ],
     "Industry" : [
-        "All",
-        "B2C",
-        "B2B",
-        "Food",
-        "Tech",
-        "Ecommerce",
-        "Fashion",
-        "Sustainability",
-        "Gaming",
-        "Entertainment",
-        "Education",
-        "Sports",
-        "Retail",
-        "Healthcare",
-        "Energy",
-        "Automobile",
-        "Beauty"
+        { value: "All", label: "All" },
+        { value: "B2C", label: "B2C" },
+        { value: "B2B", label: "B2B" },
+        { value: "Food", label: "Food" },
+        { value: "Tech", label: "Tech" },
+        { value: "Ecommerce", label: "Ecommerce" },
+        { value: "Fashion", label: "Fashion" },
+        { value: "Sustainability", label: "Sustainability" },
+        { value: "Gaming", label: "Gaming" },
+        { value: "Entertainment", label: "Entertainment" },
+        { value: "Education", label: "Education" },
+        { value: "Sports", label: "Sports" },
+        { value: "Retail", label: "Retail" },
+        { value: "Healthcare", label: "Healthcare" },
+        { value: "Energy", label: "Energy" },
+        { value: "Automobile", label: "Automobile" },
+        { value: "Beauty", label: "Beauty" },
     ],
     "Video Style" : [
-        "All",
-        "Dynamic",
-        "Tech-driven",
-        "Elegant",
-        "Emotional",
-        "Empowering",
-        "Lighthearted",
-        "Comedic",
-        "Suspenseful",
-        "Informative",
-        "Visually Stunning"
+        { value: "All", label: "All" },
+        { value: "Dynamic", label: "Dynamic" },
+        { value: "Tech-driven", label: "Tech-driven" },
+        { value: "Elegant", label: "Elegant" },
+        { value: "Emotional", label: "Emotional" },
+        { value: "Empowering", label: "Empowering" },
+        { value: "Lighthearted", label: "Lighthearted" },
+        { value: "Comedic", label: "Comedic" },
+        { value: "Suspenseful", label: "Suspenseful" },
+        { value: "Informative", label: "Informative" },
+        { value: "Visually Stunning", label: "Visually Stunning" },
     ],
     "Budget" : [
-        "All",
-        "$",
-        "$$",
-        "$$$",
-        "$$$$",
-        "$$$$$"
+        { value: "All", label: "All" },
+        { value: "$", label: "$" },
+        { value: "$$", label: "$$" },
+        { value: "$$$", label: "$$$" },
+        { value: "$$$$", label: "$$$$" },
+        { value: "$$$$$", label: "$$$$$" },
     ],
 }
 
@@ -77,7 +77,6 @@ function IdeaNetworkFilterList() {
               name="Budget"
               options={OPTIONS["Budget"]}
           />
-          <input type="checkbox" name="Originals"/> LemonTree Originals
         </div>
     );
 }

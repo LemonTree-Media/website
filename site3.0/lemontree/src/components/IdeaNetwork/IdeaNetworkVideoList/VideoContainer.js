@@ -6,6 +6,7 @@ import axios from 'axios';
 
 import VideoEmbed90 from '../../VideoEmbed90';
 import IdeaNetworkOverlay from '../IdeaNetworkOverlay';
+import IdeaNetworkContext from '../../../contexts/IdeaNetworkContext';
 
 class VideoContainer extends Component {
     constructor(){
@@ -33,6 +34,7 @@ class VideoContainer extends Component {
     render(){
       return (
       <div>
+      <IdeaNetworkContext.Consumer> 
         {this.state.data.map(data => {
           return (
                 <React.Fragment>
@@ -101,14 +103,9 @@ class VideoContainer extends Component {
                     );
                   })
                 : null}
-
-      </div>
-
-
-        
-
-         
-        
+            </IdeaNetworkContext.Consumer> 
+         </div>   
+          
       );
     }
     
